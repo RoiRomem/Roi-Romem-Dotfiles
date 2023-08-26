@@ -7,4 +7,4 @@
 - Menu: wofi
 
 ### Gallery
-[]!(https://github.com/RoiRomem/Roi-Romem-Dotfiles/blob/main/screenshot.png?raw=true)
+![](https://github.com/RoiRomem/Roi-Romem-Dotfiles/blob/main/screenshot.png?raw=true)
