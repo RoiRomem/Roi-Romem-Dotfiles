@@ -1,0 +1,2037 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Wijzigingen toepassen"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "Exporteren..."
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "mijn-ublock-statische-filters_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "Short information about how to create custom filters",
+      "message": "Eén filter per regel. Een filter kan een gewone hostnaam of een EasyList-compatibel filter zijn. Regels beginnend met \u003Ccode>!\u003C/code> worden genegeerd."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "Importeren en toevoegen..."
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Mijn filters"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Wijzigingen toepassen"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "A checkbox in the _3rd-party filters_ pane",
+      "message": "Filterlijsten automatisch bijwerken"
+   },
+   "3pExternalListObsolete": {
+      "description": "used as a tooltip for the out-of-date icon beside a list",
+      "message": "Verouderd."
+   },
+   "3pExternalListsHint": {
+      "description": "Short information about how to use the textarea to import external filter lists by URL",
+      "message": "Eén URL per regel. Ongeldige URL’s worden zonder mededeling genegeerd."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "Advertenties"
+   },
+   "3pGroupAnnoyances": {
+      "description": "The header identifying the filter lists in the category 'annoyances'",
+      "message": "Storende elementen"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "Aangepast"
+   },
+   "3pGroupDefault": {
+      "description": "Header for the uBlock filters section in 'Filter lists pane'",
+      "message": "Ingebouwd"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "Malwaredomeinen"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "Multifunctioneel"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "Privacy"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "Gebieden, talen"
+   },
+   "3pIgnoreGenericCosmeticFilters": {
+      "description": "This will cause uBO to ignore all generic cosmetic filters.",
+      "message": "Algemene cosmetische filters negeren"
+   },
+   "3pIgnoreGenericCosmeticFiltersInfo": {
+      "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature.",
+      "message": "Algemene cosmetische filters zijn die cosmetische filters die zijn bedoeld om op alle websites te worden toegepast. Het inschakelen van deze optie elimineert de aan webpagina’s toegevoegde geheugen- en cpu-overhead als gevolg van het verwerken van algemene cosmetische filters.\n\nHet wordt aanbevolen deze optie op minder krachtige apparaten in te schakelen."
+   },
+   "3pImport": {
+      "description": "The label for the checkbox used to import external filter lists",
+      "message": "Importeren..."
+   },
+   "3pLastUpdate": {
+      "description": "used as a tooltip for the clock icon beside a list",
+      "message": "Laatst bijgewerkt: {{ago}}.\nKlik om een update af te dwingen."
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "Lijst van geblokkeerde hosts"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "{{used}} van {{total}} gebruikt"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "Appears at the top of the _3rd-party filters_ pane",
+      "message": "{{netFilterCount}} netwerkfilters ＋ {{cosmeticFilterCount}} cosmetische filters van:"
+   },
+   "3pNetworkError": {
+      "description": "used as a tooltip for error icon beside a list",
+      "message": "Een netwerkfout heeft voorkomen dat de bron werd bijgewerkt."
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Filterlijsten"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature.",
+      "message": "Cosmetische filters dienen voor het verbergen van elementen in een webpagina die visueel storend kunnen zijn en niet door de op netwerkaanvragen gebaseerde filter-engines kunnen worden geblokkeerd."
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "Cosmetische filters inlezen en toepassen"
+   },
+   "3pPurgeAll": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "Alle caches legen"
+   },
+   "3pUpdateNow": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "Nu bijwerken"
+   },
+   "3pUpdating": {
+      "description": "used as a tooltip for the spinner icon beside a list",
+      "message": "Bijwerken..."
+   },
+   "3pViewContent": {
+      "description": "used as a tooltip for eye icon beside a list",
+      "message": "inhoud weergeven"
+   },
+   "AbortError": {
+      "message": "Inlogverzoek is afgebroken door de browser. Probeer het opnieuw."
+   },
+   "AboutPrivacy": {
+      "message": "Privacybeleid"
+   },
+   "AboutTerms": {
+      "message": "Servicevoorwaarden"
+   },
+   "Account": {
+      "message": "Rekening"
+   },
+   "AccountExpires": {
+      "message": "Verloopt op"
+   },
+   "AccountFree": {
+      "message": "Gratis"
+   },
+   "AccountManage": {
+      "message": "Beheren"
+   },
+   "AccountSubscription": {
+      "message": "Abonnement"
+   },
+   "AccountType": {
+      "message": "Account type"
+   },
+   "AccountUpgrade": {
+      "message": "Upgrade naar Premium"
+   },
+   "AccountUsername": {
+      "message": "Gebruikersnaam"
+   },
+   "ActivateAccount": {
+      "message": "Activeer uw account!"
+   },
+   "AddCurrentSite": {
+      "message": "Huidige site toevoegen"
+   },
+   "AddNewProxy": {
+      "message": "Nieuwe proxy toevoegen"
+   },
+   "AddSite": {
+      "message": "Website(s) toevoegen"
+   },
+   "AddSiteInputHint": {
+      "message": "U kunt de lijst met sites invoeren, gescheiden door komma's, puntkomma's of nieuwe regels"
+   },
+   "AllLocations": {
+      "message": "Alle locaties"
+   },
+   "AllowExtensionNotifications": {
+      "message": "Desktopmeldingen toestaan"
+   },
+   "AppDesc": {
+      "message": "Fast, ultra secure, and easy to use VPN service to protect your privacy online. Enjoy Unlimited Traffic and Bandwidth!"
+   },
+   "AppName": {
+      "message": "Free VPN for Chrome - VPN Proxy VeePN"
+   },
+   "ApplyAllDomains": {
+      "message": "Toepassen op alle subdomeinen"
+   },
+   "AppsForAllDevices": {
+      "message": "Apps voor alle apparaten"
+   },
+   "AuthFailMessage": {
+      "message": "Als u recentelijk uw wachtwoord hebt gewijzigd op de website van VeePN, kunt u deze fout mogelijk verhelpen door de extensie opnieuw te verifiëren.\u003Cbr />\u003Cbr />Neem contact op met onze \u003Ca href=\"https://support.veepn.com/\">klantenservice\u003C/a> voor hulp en ondersteuning."
+   },
+   "AuthFailPageTitle": {
+      "message": "Authenticatiefout | VeePN"
+   },
+   "AuthFailTitle": {
+      "message": "Authenticatiefout"
+   },
+   "AuthScreensAlreadyHaveAccount": {
+      "message": "Heeft u al een account?"
+   },
+   "AuthScreensEmail": {
+      "message": "E-mailadres"
+   },
+   "Authorization": {
+      "message": "Autorisatie"
+   },
+   "AuthorizationDisabled": {
+      "message": "Autorisatie uitgeschakeld"
+   },
+   "AuthorizationEnabled": {
+      "message": "Autorisatie ingeschakeld"
+   },
+   "AutoConnect": {
+      "message": "Auto-Connect"
+   },
+   "AutoConnectDescription": {
+      "message": "Automatisch verbinden bij het opstarten van de browser"
+   },
+   "AutoExcludeDescription": {
+      "message": "Lijst met websites die u wilt omzeilen wanneer de VeePN-verbinding is ingeschakeld"
+   },
+   "AutoExcludeMessage": {
+      "message": "Exclude List: websites toevoegen die u wilt omzeilen wanneer de VeePN-verbinding is ingeschakeld"
+   },
+   "AutoExcludeTitle": {
+      "message": "Websites uitsluiten"
+   },
+   "Back": {
+      "message": "Terug"
+   },
+   "BannerDownloadAppMobileHint": {
+      "message": "Vereenvoudig het downloaden van apps op uw apparaat met deze QR-code"
+   },
+   "BannerDownloadAppTitle": {
+      "message": "Bescherm al uw apparaten door de app te downloaden"
+   },
+   "BeConnectedBeSafe": {
+      "message": "Verbonden zijn.  Wees veilig."
+   },
+   "BlockAds": {
+      "message": "Blok advertenties"
+   },
+   "BlockAdsDescription": {
+      "message": "Blokkering van advertenties in uw Chrome-browser in- of uitschakelen tijdens het gebruik van VeePN"
+   },
+   "BlockCookies": {
+      "message": "Blokkeer popup bericht \"we gebruiken cookies\""
+   },
+   "BlockCookiesDescription": {
+      "message": "Blokkeer vervelende \"We gebruiken cookies\" banners op alle websites"
+   },
+   "BlockFbclid": {
+      "message": "Verwijder FBCLID-parameters"
+   },
+   "BlockFbclidDescription": {
+      "message": "Facebook verwijderen Klik op Identifier FBCLID-parameters van uitgaande links. Ze worden gebruikt voor het volgen van informatie over uw bezoek aan een website"
+   },
+   "BlockGclid": {
+      "message": "GCLID-parameters verwijderen"
+   },
+   "BlockGclidDescription": {
+      "message": "Verwijder Google Click Identifier (GCLID) -parameters van uitgaande links. Ze worden gebruikt voor het volgen van informatie over uw bezoek aan een website"
+   },
+   "BlockMalware": {
+      "message": "Malware ontwijken"
+   },
+   "BlockMalwareDescription": {
+      "message": "Blokkeert de toegang tot bekende malware, phishing en andere kwaadaardige domeinen"
+   },
+   "BlockReferer": {
+      "message": "Schakel websiteverwijzing uit"
+   },
+   "BlockRefererDescription": {
+      "message": "Voorkom dat u het adres van de huidige webpagina naar een andere webpagina verzendt wanneer u een link volgt"
+   },
+   "BlockSocial": {
+      "message": "Blokkeren van de sociale tracering"
+   },
+   "BlockSocialDescription": {
+      "message": "Blokkeren van het bijhouden van sociale netwerkwidgets en -knoppen"
+   },
+   "BlockTrackers": {
+      "message": "Stop Trackers"
+   },
+   "BlockTrackersDescription": {
+      "message": "Schakel analytische trackers (zoals Google) in of uit tijdens het gebruik van VeePN"
+   },
+   "BlockUtm": {
+      "message": "UTM-parameters verwijderen"
+   },
+   "BlockUtmDescription": {
+      "message": "Verwijder UTM-parameters van URL's waarop u klikt. Ze worden gebruikt voor het volgen van informatie over uw bezoek aan een website"
+   },
+   "BuyGetMore": {
+      "message": "Meer"
+   },
+   "BuyPremium": {
+      "message": "Upgrade naar Premium"
+   },
+   "BuyPremiumBannerButton": {
+      "message": "Upgrade"
+   },
+   "BuyPremiumBannerText": {
+      "message": "Je hebt een GRATIS account"
+   },
+   "Cancel": {
+      "message": "Annuleren"
+   },
+   "CannotUseVeePNMessage": {
+      "message": "VeePN kan niet worden gebruikt omdat een andere extensie de proxyinstellingen van uw browser beheert."
+   },
+   "CantModify": {
+      "message": "U kunt deze proxy niet wijzigen of verwijderen wanneer de verbinding actief is"
+   },
+   "ChangeExtensionSettings": {
+      "message": "Extensie-instellingen"
+   },
+   "ChooseVeepnPremium": {
+      "message": "Kies VeePN Premium."
+   },
+   "ClearLogs": {
+      "message": "Logboeken wissen"
+   },
+   "CloseText": {
+      "message": "Sluiten"
+   },
+   "CodeFieldCannotBeEmpty": {
+      "message": "Codeveld mag niet leeg zijn"
+   },
+   "ConfigurationTitle": {
+      "message": "Configuratie"
+   },
+   "Confirm": {
+      "message": "Bevestigen"
+   },
+   "ConfirmSettingsImportMessage": {
+      "message": "De huidige instellingen van upw app worden overschreven door de instellingen van het externe bestand. De extra URL's in Slimme locaties en de Uitzonderingenlijst zullen worden toegevoegd aan uw huidige instellingen van uw website."
+   },
+   "ConnectionButtonConnected": {
+      "message": "VPN is ON"
+   },
+   "ConnectionButtonConnecting": {
+      "message": "Verbinding maken..."
+   },
+   "ConnectionButtonDisconnected": {
+      "message": "VPN is OFF"
+   },
+   "ConnectionButtonDisconnecting": {
+      "message": "Loskoppelen ..."
+   },
+   "ConnectionFailMessage": {
+      "message": "Mogelijk heeft u geen internetverbinding meer of is deze tijdelijk onderbroken. Ook kan de server van VeePN verbindingsproblemen hebben."
+   },
+   "ConnectionFailPageTitle": {
+      "message": "Verbindingsfout | VeePN"
+   },
+   "ConnectionFailTitle": {
+      "message": "Verbindingsfout"
+   },
+   "ConnectionModes": {
+      "message": "Verbindingsmodi"
+   },
+   "CurrentRegionIp": {
+      "message": "Uw IP:"
+   },
+   "CustomProxies": {
+      "message": "AANGEPASTE PROXY'S"
+   },
+   "CustomProxy": {
+      "message": "Aangepaste proxy"
+   },
+   "CustomProxyAlreadyExists": {
+      "message": "Aangepaste proxy met deze instellingen bestaat al"
+   },
+   "CustomProxyDescription": {
+      "message": "Staat toe om aangepaste proxyserver toe te voegen"
+   },
+   "CustomProxyIsOFF": {
+      "message": "Aangepaste proxy is UIT"
+   },
+   "CustomProxyIsON": {
+      "message": "Aangepaste proxy is AAN"
+   },
+   "Debug": {
+      "message": "Debug"
+   },
+   "DebugDescription": {
+      "message": "Wanneer Debug Logboekregistratie aan staat, zal de extensie debug berichten loggen in een bestand"
+   },
+   "DebugTitle": {
+      "message": "Debug logboekregistratie"
+   },
+   "DeleteButton": {
+      "message": "Verwijder"
+   },
+   "DevicesProtected": {
+      "message": "10 apparaten beschermd"
+   },
+   "DisableOtherExtensions": {
+      "message": "Andere extensies uitschakelen"
+   },
+   "Disabled": {
+      "message": "uitgeschakeld"
+   },
+   "DisabledDebugMode": {
+      "message": "Debug logboekregistratie staat UIT"
+   },
+   "DomainExamplePlaceholder": {
+      "message": "domain.com, *.domain.com, *.com"
+   },
+   "DownloadLogs": {
+      "message": "Logboeken downloaden"
+   },
+   "DuplicateRuleInList": {
+      "message": "Regel wordt gedupliceerd. Alstublieft verwijderen."
+   },
+   "EditButton": {
+      "message": "Wijzig"
+   },
+   "EditProxy": {
+      "message": "Proxy wijzigen"
+   },
+   "EnableAuthorization": {
+      "message": "Autorisatie inschakelen"
+   },
+   "Enabled": {
+      "message": "ingeschakeld"
+   },
+   "EnabledDebugMode": {
+      "message": "Debug logboekregistratie staat AAN"
+   },
+   "Enter2FAcode": {
+      "message": "Voer 2FA-code in"
+   },
+   "EnterHostnameOrIP": {
+      "message": "Voer hostnaam of IP in"
+   },
+   "EnterPassword": {
+      "message": "Voer wachtwoord in"
+   },
+   "EnterPort": {
+      "message": "Voer poort in"
+   },
+   "EnterRecoveryCode": {
+      "message": "Voer een herstelcode in"
+   },
+   "EnterUsername": {
+      "message": "Voer gebruikersnaam in"
+   },
+   "ErrorDuplicateInSmartLocation": {
+      "message": "Deze website kan niet worden toegevoegd omdat deze al in de lijst met slimme locaties staat"
+   },
+   "ErrorFileContent": {
+      "message": "There is an issue in file data content"
+   },
+   "ErrorFileExtention": {
+      "message": "Verkeerde bestandsextensie"
+   },
+   "ErrorFileSize": {
+      "message": "Bestandsgrootte Groter dan 2MiB"
+   },
+   "ErrorForbiddenSymbol": {
+      "message": "Dit symbool is niet toegestaan"
+   },
+   "ErrorNoFile": {
+      "message": "Geen bestand toegevoegd"
+   },
+   "ErrorNotASite": {
+      "message": "Dit is geen geldige website"
+   },
+   "ErrorSiteDuplicate": {
+      "message": "Deze site kan niet worden toegevoegd omdat deze al in deze lijst staat"
+   },
+   "ErrorSiteEmpty": {
+      "message": "Website naam is leeg"
+   },
+   "ExcludeMode": {
+      "message": "Websites uitsluiten"
+   },
+   "ExcludeModeDescription": {
+      "message": "Voeg websites toe die u wilt omzeilen wanneer de VeePN-verbinding is ingeschakeld"
+   },
+   "Extension": {
+      "message": "Extensie"
+   },
+   "ExtensionUpdated": {
+      "message": "Extensie bijgewerkt"
+   },
+   "FavoriteLocations": {
+      "message": "Favorieten"
+   },
+   "Fill": {
+      "message": "Vul gemarkeerde velden in"
+   },
+   "FirstTooltipTitlePartOne": {
+      "message": "Wat je krijgt"
+   },
+   "FirstTooltipTitlePartTwo": {
+      "message": "met VeePN"
+   },
+   "FollowLink": {
+      "message": "Volg de link uit de bevestigingsmail"
+   },
+   "FreeLocations": {
+      "message": "Gratis locaties"
+   },
+   "GB": {
+      "description": "short for 'gigabytes'",
+      "message": "GB"
+   },
+   "GetAccess": {
+      "message": "Toegang krijgen"
+   },
+   "GetPremium": {
+      "message": "Word Premium"
+   },
+   "HelpFaq": {
+      "message": "FAQ"
+   },
+   "HelpManage": {
+      "message": "Beheer account & apparaten"
+   },
+   "HelpSupport": {
+      "message": "Ondersteuning"
+   },
+   "HoursOfTtrialLeft": {
+      "message": "uur proeftijd over"
+   },
+   "Import": {
+      "message": "Importeren"
+   },
+   "IntroRow1": {
+      "message": "Krijg meer met VeePN Premium"
+   },
+   "IntroRow2": {
+      "message": "Ondersteuning voor meerdere apparaten"
+   },
+   "IntroRow3": {
+      "message": "Premium serverlocaties"
+   },
+   "IntroRow4": {
+      "message": "Onbeperkte data en bandbreedte"
+   },
+   "IntroRow5": {
+      "message": "Toegewijde klantenondersteuning"
+   },
+   "IntroRow6": {
+      "message": "Ad-free browse-ervaring"
+   },
+   "IntroRow7": {
+      "message": "of download VeePN voor:"
+   },
+   "IntroTitle": {
+      "message": "Bedankt voor het installeren van VeePN!"
+   },
+   "KB": {
+      "description": "short for 'kilobytes'",
+      "message": "KB"
+   },
+   "LabelCreatePassword": {
+      "message": "Wachtwoord"
+   },
+   "LabelEmail": {
+      "message": "Voer email in"
+   },
+   "LabelEnterPassword": {
+      "message": "Wachtwoord"
+   },
+   "LanguageWarp": {
+      "message": "Veranderen van de Taal"
+   },
+   "LanguageWarpDescription": {
+      "message": "Scherm de taal van je browser af om te matchen met de taal van de proxy wanneer je verbonden bent"
+   },
+   "LiveSupport": {
+      "message": "24/7 live ondersteuning"
+   },
+   "LocationListTitle": {
+      "message": "Locaties"
+   },
+   "LocationPremiumOnly": {
+      "message": "Locatie beschikbaar voor premium gebruikers"
+   },
+   "LocationShowLess": {
+      "message": "Laat minder zien"
+   },
+   "LocationShowMore": {
+      "message": "Laat meer zien"
+   },
+   "LocationTitle": {
+      "message": "Servers"
+   },
+   "LocationWarp": {
+      "message": "Veranderen van Locatie"
+   },
+   "LocationWarpDescription": {
+      "message": "Scherm je GPS-locatie af om te matchen met de proxy-locatie wanneer je verbonden bent"
+   },
+   "LogMeOutOnClose": {
+      "message": "Log uit bij sluiten van browser"
+   },
+   "LogMeOutOnCloseDisabled": {
+      "message": "Deze instelling kan niet worden beheerd als gegevens niet worden onthouden (inlogscherm)"
+   },
+   "LogMeOutOnCloseTooltip": {
+      "message": "U wordt niet automatisch ingelogd als u de browser opnieuw opent"
+   },
+   "Login": {
+      "message": "Inloggen"
+   },
+   "LoginNoAccount": {
+      "message": "Heeft u geen account?"
+   },
+   "Logout": {
+      "message": "Uitloggen"
+   },
+   "MB": {
+      "description": "short for 'megabytes'",
+      "message": "MB"
+   },
+   "MapOptimal": {
+      "message": "Auto server"
+   },
+   "MapTitle": {
+      "message": "Bladeren vanuit:"
+   },
+   "MaskUserAgent": {
+      "message": "Wijzig User-Agent"
+   },
+   "MaskUserAgentDescription": {
+      "message": "Vernieuwen wanneer u een nieuwe gebruikersagent nodig heeft en ons systeem zal deze willekeurig veranderen"
+   },
+   "MenuAbout": {
+      "message": "Over VeePN"
+   },
+   "MenuAccount": {
+      "message": "Mijn rekening"
+   },
+   "MenuGet30Days": {
+      "message": "Krijg 30 dagen gratis"
+   },
+   "MenuHelp": {
+      "message": "Helpen"
+   },
+   "MenuRateUs": {
+      "message": "Beoordeel ons"
+   },
+   "MenuSettings": {
+      "message": "Instellingen"
+   },
+   "MenuShare": {
+      "message": "Deel deze app"
+   },
+   "MenuUpgrade": {
+      "message": "Upgrade naar Premium"
+   },
+   "ModesCookies": {
+      "message": "Cookie blocker"
+   },
+   "ModesProxyLocal": {
+      "message": "Lokaal netwerk omzeilen"
+   },
+   "ModesTooltipsCookie": {
+      "message": "Schakel webcookies in of uit tijdens uw VeePN-sessie."
+   },
+   "ModesTooltipsProxyLocal": {
+      "message": "Lokale bronnen overslaan, zoals websites in een intern netwerk, localhost, enz."
+   },
+   "ModesTooltipsWebRTC": {
+      "message": "WebRTC identificeert IP's via het Interactive Connectivity Establishment (ICE) -protocol. Schakel deze functie in om dat te voorkomen."
+   },
+   "ModesWebRTC": {
+      "message": "WebRTC-blocker"
+   },
+   "MoneyBackGuarantee": {
+      "message": "30-dagen geld terug garantie"
+   },
+   "Name": {
+      "message": "VeePN"
+   },
+   "NetworkError": {
+      "message": "Inlogverzoek is mislukt wegens een netwerkfout. Probeer het later opnieuw."
+   },
+   "NoLogs": {
+      "message": "Geen logs op dit moment"
+   },
+   "NoNetworkConnection": {
+      "message": "Geen netwerkverbinding"
+   },
+   "NoProxiesAdded": {
+      "message": "Geen proxy's toegevoegd"
+   },
+   "NoRegionSelected": {
+      "message": "Geen regio geselecteerd"
+   },
+   "NoSitesAdded": {
+      "message": "Geen websites toegevoegd"
+   },
+   "NoSitesAddedDescription": {
+      "message": "Voeg uw favoriete websites toe om automatisch van locatie te veranderen"
+   },
+   "NoThanksContinueAsFree": {
+      "message": "Nee, bedankt, ga gratis verder"
+   },
+   "NotificationButtonFreeDownload": {
+      "message": "Gratis download"
+   },
+   "NotificationButtonNextTime": {
+      "message": "Volgende keer"
+   },
+   "NotificationDownloadMessage": {
+      "message": "Bescherm uw hele internetverbinding, niet alleen de browser"
+   },
+   "NotificationDownloadTitle": {
+      "message": "Probeer onze Desktop VPN-client"
+   },
+   "OfflineError": {
+      "message": "Inlogverzoek is mislukt omdat u offline lijkt te zijn. Controleer of u verbinding met internet hebt."
+   },
+   "OptimizedStreamingServers": {
+      "message": "Geoptimaliseerde streamingservers"
+   },
+   "Password8": {
+      "message": "Wachtwoord moet minstens 8 tekens bevatten."
+   },
+   "PasswordRequired": {
+      "message": "Gebruikerswachtwoord vereist"
+   },
+   "PasswordToLong": {
+      "message": "Gebruikerswachtwoord is te lang"
+   },
+   "PasswordToShort": {
+      "message": "Gebruikerswachtwoord is te kort"
+   },
+   "PleaseWait": {
+      "message": "Bezig met laden. Een ogenblikje graag."
+   },
+   "Policy": {
+      "message": "Privacybeleid"
+   },
+   "Port": {
+      "message": "Haven"
+   },
+   "PortLonger": {
+      "message": "Poort kan niet langer zijn dan 65535"
+   },
+   "PortRequired": {
+      "message": "Serverpoort is vereist"
+   },
+   "Powered": {
+      "message": "Mogelijk gemaakt door VeePN"
+   },
+   "PremiumLocations": {
+      "message": "Premium locaties"
+   },
+   "PremiumServers50Countries": {
+      "message": "2500+ premium servers in 50 landen"
+   },
+   "ProblemWithAuthentication": {
+      "message": "Probleem met authenticatie?"
+   },
+   "ProtocolSelect": {
+      "message": "Protocol"
+   },
+   "QrCodeDescription": {
+      "message": "Gebruik je telefooncamera om deze QR-code te scannen en de app te downloaden"
+   },
+   "QrCodeTitle": {
+      "message": "Scan QR-code"
+   },
+   "RateUsRedirect1": {
+      "message": "Je bent geweldig!\nNeem een ​​moment de tijd om ons 5 sterren te geven op %{browser} Web Store."
+   },
+   "RateUsRedirect2": {
+      "message": "In een oogwenk wordt u omgeleid..."
+   },
+   "RateUsText": {
+      "message": "Klik op de sterren om ons te beoordelen"
+   },
+   "RateUsThankYou": {
+      "message": "Dank je!"
+   },
+   "RateUsTitle": {
+      "message": "Liefde VeePN?"
+   },
+   "RecoveryCode": {
+      "message": "Herstel code"
+   },
+   "RefreshToSeeChanges": {
+      "message": "Vernieuw om wijzigingen te zien"
+   },
+   "Register": {
+      "message": "Inschrijven"
+   },
+   "RegisterDescription": {
+      "message": "Door een account aan te maken, ga je akkoord met de VeePN's"
+   },
+   "RegisterDescriptionAnd": {
+      "message": "&"
+   },
+   "RegisterHaveAnAccount": {
+      "message": "Heb al een account"
+   },
+   "RememberMe": {
+      "message": "Mij onthouden"
+   },
+   "RememberMeTooltip": {
+      "message": "Slaat deze gegevens op bij het opnieuw opstarten van de browser"
+   },
+   "ResetPassword": {
+      "message": "Wachtwoord opnieuw instellen"
+   },
+   "Restore": {
+      "message": "Stuur wachtwoord"
+   },
+   "RestoreForgot": {
+      "message": "Wachtwoord vergeten?"
+   },
+   "Search": {
+      "message": "Zoeken"
+   },
+   "SecondTooltipTitle": {
+      "message": "Onze voordelen!"
+   },
+   "Security": {
+      "message": "Veiligheid"
+   },
+   "SendResetLink": {
+      "message": "Verstuur reset link"
+   },
+   "Server": {
+      "message": "Server"
+   },
+   "ServerIpOrHostnameIsIncorrect": {
+      "message": "Server-IP of hostnaam is onjuist"
+   },
+   "ServerIpRequired": {
+      "message": "Servernaam of server-ip is vereist"
+   },
+   "ServersFromCountries": {
+      "message": "Servers uit 89+ landen"
+   },
+   "SettingControlledByOther": {
+      "message": "Deze instelling wordt beheerd door een andere extensie."
+   },
+   "SettingNotControllable": {
+      "message": "De extensie kan deze instelling niet beheren."
+   },
+   "SettingsExport": {
+      "message": "Instellingen Exporteren"
+   },
+   "SettingsExportDescription": {
+      "message": "Hiermee kunt u instellingen delen voor andere gebruikers"
+   },
+   "SettingsExportSuccess": {
+      "message": "Instellingen succesvol geëxporteerd"
+   },
+   "SettingsImport": {
+      "message": "Instellingen Importeren"
+   },
+   "SettingsImportDescription": {
+      "message": "Hiermee kunt u instellingen gebruiken die door andere gebruikers zijn gedeeld"
+   },
+   "SettingsImportSuccess": {
+      "message": "Instellingen succesvol geïmporteerd"
+   },
+   "SettingsLanguage": {
+      "message": "Taal"
+   },
+   "SettingsNew": {
+      "message": "NIEUW"
+   },
+   "SettingsNotifications": {
+      "message": "Meldingen"
+   },
+   "SmartLocationControlsTitle": {
+      "message": "Website toevoegen"
+   },
+   "SmartLocationDescription": {
+      "message": "Skjul automatisk min placering, når jeg besøger bestemte websteder"
+   },
+   "SmartLocationFeatureDisabledTitle": {
+      "message": "Slimme Locatie staat UIT"
+   },
+   "SmartLocationFeatureEnableDescription": {
+      "message": "VeePN zal automatisch van locatie veranderen wanneer u uw favoriete websites bezoekt"
+   },
+   "SmartLocationFeatureEnableTitle": {
+      "message": "Slimme Locatie staat AAN"
+   },
+   "SmartLocationHint": {
+      "message": "Smart Locations er en opdateret version af funktionen Autoprotect: Indstil placeringen på forhånd, og opret forbindelse til dine yndlingswebsteder privat, når du besøger dem."
+   },
+   "SmartLocationListTitle": {
+      "message": "Je favoriete websites"
+   },
+   "SmartLocationTitle": {
+      "message": "Slimme Locatie"
+   },
+   "StatisticCookies": {
+      "message": "Cookies"
+   },
+   "TOS": {
+      "message": "Servicevoorwaarden"
+   },
+   "TimeWarp": {
+      "message": "Veranderen van de Tijd"
+   },
+   "TimeWarpDescription": {
+      "message": "Scherm de browser-tijd af om te matchen met de proxy-tijd wanneer je verbonden bent"
+   },
+   "TimeoutError": {
+      "message": "Er is na %{seconds} seconden een time-out opgetreden voor het inlogverzoek. Probeer het opnieuw."
+   },
+   "ToggleTheme": {
+      "message": "Donkere Modus"
+   },
+   "ToggleThemeDescription": {
+      "message": "Wissel tussen donkere en lichte modus"
+   },
+   "TooManyRequestsError": {
+      "message": "Te veel mislukte inlogpogingen. Probeer het later opnieuw."
+   },
+   "TooltipContinue": {
+      "message": "Doorgaan"
+   },
+   "TooltipDone": {
+      "message": "Begin"
+   },
+   "TooltipFeature1": {
+      "message": "Online gegevensversleuteling"
+   },
+   "TooltipFeature2": {
+      "message": "Verborgen IP-adres"
+   },
+   "TooltipFeature3": {
+      "message": "Toegang tot websites met geografische beperkingen"
+   },
+   "TooltipFeature4": {
+      "message": "Geblokkeerde advertenties en schadelijke inhoud"
+   },
+   "TooltipFeature5": {
+      "message": "Beveiligde verbindingen"
+   },
+   "TooltipFeature6": {
+      "message": "Eén VPN-account voor platformonafhankelijke apps"
+   },
+   "TooltipFeature7": {
+      "message": "Geen activiteitenlogboeken. Geen verbindingslogboeken"
+   },
+   "TooltipFeature8": {
+      "message": "Gratis locaties"
+   },
+   "TooltipNext": {
+      "message": "Volgende"
+   },
+   "TooltipPrevious": {
+      "message": "Voorgaand"
+   },
+   "TrialGetMore": {
+      "message": "Meer"
+   },
+   "TrialOneTime": {
+      "message": "Eenmalige aanbieding"
+   },
+   "TrialRow1": {
+      "message": "Ondersteuning voor meerdere apparaten"
+   },
+   "TrialRow2": {
+      "message": "Premium serverlocaties"
+   },
+   "TrialRow3": {
+      "message": "Onbeperkte data en bandbreedte"
+   },
+   "TrialThanks": {
+      "message": "Start een gratis versie"
+   },
+   "TrialTitle": {
+      "message": "Krijg meer met VeePN Premium"
+   },
+   "TrialUpgrade": {
+      "message": "Upgrade naar Premium"
+   },
+   "TryAgain": {
+      "message": "Opnieuw proberen"
+   },
+   "TurnOnSmartLocationBannerButton": {
+      "message": "Slimme locatie verbinden"
+   },
+   "TurnOnSmartLocationBannerTitle": {
+      "message": "Schakel automatisch wisselen van locatie in"
+   },
+   "TwoFactorSubTitle": {
+      "message": "Gebruik uw authenticatie-app om de code te krijgen en voer deze hieronder in"
+   },
+   "TwoFactorTitle": {
+      "message": "Twee-factorenauthenticatie"
+   },
+   "Unavailable": {
+      "message": "niet beschikbaar"
+   },
+   "UnavailableDescription": {
+      "message": "Een andere %{browser} -extensie die uw proxy-instellingen beheert, onderbreekt de prestaties van VeePN."
+   },
+   "UnavailableDisable": {
+      "message": "Schakel alstublieft de extensie uit"
+   },
+   "UnavailableTitle": {
+      "message": "Onderbreking van de service"
+   },
+   "UnexpectedServerResponse": {
+      "message": "Op het inlogverzoek kwam een onverwacht antwoord van de server (%{statusLine})"
+   },
+   "UnknownError": {
+      "message": "Er is een onbekende fout opgetreden."
+   },
+   "UnlimitedSpeed": {
+      "message": "Onbeperkte snelheid"
+   },
+   "UnlockCustomProxy": {
+      "message": "Aangepaste proxy ontgrendelen"
+   },
+   "UnlockCustomProxyDesc": {
+      "message": "Beheer en schakel snel tussen meerdere proxy's"
+   },
+   "UnlockSmartLocation": {
+      "message": "Smart Locatie Ontgrendelen"
+   },
+   "UnlockSmartLocationDescription": {
+      "message": "Automatische locatieverandering voor uw favoriete websites inschakelen"
+   },
+   "UpgradeBrowserMessage": {
+      "message": "VeePN kan niet worden gebruikt omdat uw versie van %{browser} verouderd is. Werk %{browser} bij naar de nieuwste versie."
+   },
+   "UpgradeToPro": {
+      "message": "Upgraden naar Pro"
+   },
+   "UserAgentDefault": {
+      "message": "Standaard"
+   },
+   "UserAgentRandom": {
+      "message": "Willekeurig"
+   },
+   "UserAgentSelect": {
+      "message": "Selecteer een User-Agent"
+   },
+   "UsernameLabel": {
+      "message": "Gebruikersnaam"
+   },
+   "UsernameRequired": {
+      "message": "Gebruikersnaam is vereist"
+   },
+   "UsernameToLong": {
+      "message": "Gebruikersnaam is te lang"
+   },
+   "UsernameToShort": {
+      "message": "Gebruikersnaam is te kort"
+   },
+   "Version": {
+      "message": "Versie"
+   },
+   "Wait": {
+      "message": "Even geduld aub"
+   },
+   "WebRTCDescription": {
+      "message": "WebRTC is een communicatieprotocol gebaseerd op JavaScript en kan uw echte IP-adres lekken"
+   },
+   "WebRTCLeakProtection": {
+      "message": "WebRTC IP-detectie blokkeren"
+   },
+   "WelcomeToNewVersion": {
+      "message": "Welkom bij %{appVersion}"
+   },
+   "WrongEmail": {
+      "message": "Email is niet correct."
+   },
+   "WrongEmailAndPassword": {
+      "message": "Email of wachtwoord is incorrect."
+   },
+   "WrongPassword": {
+      "message": "Wachtwoord is niet correct."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Gebruikersnaam en/of wachtwoord is/zijn onjuist."
+   },
+   "YouAreConnectedTo": {
+      "message": "U bent verbonden met %{region}"
+   },
+   "YouAreNotConnected": {
+      "message": "U hebt geen verbinding"
+   },
+   "YourCustomProxies": {
+      "message": "Uw aangepaste proxy's"
+   },
+   "aboutBackupDataButton": {
+      "description": "Text for button to create a backup of all settings",
+      "message": "Back-up maken naar bestand..."
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "mijn-ublock-back-up_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Wijzigingenlogboek"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Broncode (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Medewerkers"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Externe afhankelijkheden (GPLv3-compatibel):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Filterlijsten"
+   },
+   "aboutIssues": {
+      "description": "Text for a link to official issue tracker",
+      "message": "Probleemtracker"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Over"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "Standaardinstellingen terugzetten..."
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Al uw instellingen zullen worden verwijderd, waarna uBlock₀ wordt herstart.\n\nStandaardinstellingen van uBlock₀ terugzetten?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "Terugzetten uit bestand..."
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Al uw instellingen zullen met back-upgegevens van {{time}} worden overschreven, en uBlock₀ zal worden herstart.\n\nWilt u alle bestaande instellingen met back-upgegevens overschrijven?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "De gegevens konden niet worden gelezen of zijn ongeldig"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Broncode"
+   },
+   "aboutSupport": {
+      "description": "A link for where to get support",
+      "message": "Ondersteuning"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Vertalingen"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on GitHub",
+      "message": "Wiki"
+   },
+   "advancedSettingsPageName": {
+      "description": "Title for the advanced settings page",
+      "message": "Geavanceerde instellingen"
+   },
+   "advancedSettingsWarning": {
+      "description": "A warning to users at the top of 'Advanced settings' page",
+      "message": "Waarschuwing! Wijzig deze geavanceerde instellingen op eigen risico."
+   },
+   "assetViewerPageName": {
+      "description": "Title for the asset viewer page",
+      "message": "uBlock₀ – Middelenviewer"
+   },
+   "clickToLoad": {
+      "description": "Message used in frame placeholders",
+      "message": "Klik om te laden"
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "Naam van dit apparaat:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "... \n..."
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "Importeren uit cloudopslag"
+   },
+   "cloudPullAndMerge": {
+      "description": "tooltip",
+      "message": "Importeren uit cloudopslag en samenvoegen met huidige instellingen"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "Exporteren naar cloudopslag"
+   },
+   "contextMenuTemporarilyAllowLargeMediaElements": {
+      "description": "A context menu entry, present when large media elements have been blocked on the current site",
+      "message": "Grote media-elementen tijdelijk toestaan"
+   },
+   "dashboardName": {
+      "description": "English: uBlock₀ — Dashboard",
+      "message": "uBlock₀ – Dashboard"
+   },
+   "dashboardUnsavedWarning": {
+      "description": "A warning in the dashboard when navigating away from unsaved changes",
+      "message": "Waarschuwing! Niet-opgeslagen wijzigingen"
+   },
+   "dashboardUnsavedWarningIgnore": {
+      "description": "Label for button to ignore unsaved changes",
+      "message": "Negeren"
+   },
+   "dashboardUnsavedWarningStay": {
+      "description": "Label for button to prevent navigating away from unsaved changes",
+      "message": "Blijven"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "Teruggaan"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "Dit venster sluiten"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "Permanent"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "Tijdelijk"
+   },
+   "docblockedFoundIn": {
+      "description": "English: List of filter list names follows",
+      "message": "Gevonden in:"
+   },
+   "docblockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "zonder parameters"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "Strenge blokkering voor {{hostname}} uitschakelen"
+   },
+   "docblockedPrompt1": {
+      "description": "Used in the strict-blocking page",
+      "message": "uBlock₀ heeft het laden van de volgende pagina voorkomen:"
+   },
+   "docblockedPrompt2": {
+      "description": "Used in the strict-blocking page",
+      "message": "vanwege het volgende filter:"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "This entry must be the last one"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} dagen geleden"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} uur geleden"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} minuten geleden"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "een dag geleden"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "een uur geleden"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "een minuut geleden"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: {{msg}}",
+      "message": "Netwerkfout: {{msg}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Eindelijk, een efficiënte adblocker. Gebruikt weinig processorkracht en geheugen."
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock₀ (off)'",
+      "message": "uitgeschakeld"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "Wijzigingen toepassen"
+   },
+   "genericBytes": {
+      "description": "",
+      "message": "bytes"
+   },
+   "genericCopyToClipboard": {
+      "description": "Label for buttons used to copy something to the clipboard",
+      "message": "Kopiëren naar klembord"
+   },
+   "genericMergeViewScrollLock": {
+      "description": "Tooltip for the button used to lock scrolling between the views in the 'My rules' pane",
+      "message": "Vergrendeld scrollen in-/uitschakelen"
+   },
+   "genericRevert": {
+      "description": "for generic 'Revert' buttons",
+      "message": "Ongedaan maken"
+   },
+   "genericSubmit": {
+      "description": "for generic 'Submit' buttons",
+      "message": "Verzenden"
+   },
+   "logAll": {
+      "description": "Appears in the logger's tab selector",
+      "message": "Alles"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "Achter de schermen"
+   },
+   "logFilterPrompt": {
+      "description": "Placeholder string for logger output filtering input field",
+      "message": "loggerinhoud filteren"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "Domein"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "Filter"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "Type"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "loggerClearTip": {
+      "description": "Tooltip for the eraser in the logger page; used to blank the content of the logger",
+      "message": "Logger wissen"
+   },
+   "loggerCurrentTab": {
+      "description": "Appears in the logger's tab selector",
+      "message": "Huidige tabblad"
+   },
+   "loggerDomInspectorTip": {
+      "description": "Tooltip for the DOM inspector button in the logger page",
+      "message": "De DOM-inspector in-/uitschakelen"
+   },
+   "loggerEntryDetailsContext": {
+      "description": "Label to identify a context field (typically a hostname)",
+      "message": "Context"
+   },
+   "loggerEntryDetailsFilter": {
+      "description": "Label to identify a filter field",
+      "message": "Filter"
+   },
+   "loggerEntryDetailsFilterList": {
+      "description": "Label to identify a filter list field",
+      "message": "Filterlijst"
+   },
+   "loggerEntryDetailsHeader": {
+      "description": "Small header to identify the 'Details' pane for a specific logger entry",
+      "message": "Details"
+   },
+   "loggerEntryDetailsPartyness": {
+      "description": "Label to identify a field providing partyness information",
+      "message": "1e/3e partij"
+   },
+   "loggerEntryDetailsRootContext": {
+      "description": "Label to identify a root context field (typically a hostname)",
+      "message": "Hoofdcontext"
+   },
+   "loggerEntryDetailsRule": {
+      "description": "Label to identify a rule field",
+      "message": "Regel"
+   },
+   "loggerEntryDetailsType": {
+      "description": "Label to identify the type of an entry",
+      "message": "Type"
+   },
+   "loggerEntryDetailsURL": {
+      "description": "Label to identify the URL of an entry",
+      "message": "URL"
+   },
+   "loggerExportEncodeMarkdown": {
+      "description": "Label for radio-button to pick export text format",
+      "message": "Markdown"
+   },
+   "loggerExportEncodePlain": {
+      "description": "Label for radio-button to pick export text format",
+      "message": "Plat"
+   },
+   "loggerExportFormatList": {
+      "description": "Label for radio-button to pick export format",
+      "message": "Lijst"
+   },
+   "loggerExportFormatTable": {
+      "description": "Label for radio-button to pick export format",
+      "message": "Tabel"
+   },
+   "loggerInfoTip": {
+      "description": "Tooltip for the top-right info label in the logger page",
+      "message": "uBlock Origin-wiki: de logger"
+   },
+   "loggerPauseTip": {
+      "description": "Tooltip for the pause button in the logger page",
+      "message": "Logger pauzeren (alle inkomende gegevens negeren)"
+   },
+   "loggerPopupPanelTip": {
+      "description": "Tooltip for the popup panel button in the logger page",
+      "message": "Het pop-uppaneel in-/uitschakelen"
+   },
+   "loggerReloadTip": {
+      "description": "Tooltip for the reload button in the logger page",
+      "message": "De tabbladinhoud vernieuwen"
+   },
+   "loggerRowFiltererBuiltin1p": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "huidige domein"
+   },
+   "loggerRowFiltererBuiltin3p": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "van derden"
+   },
+   "loggerRowFiltererBuiltinAllowed": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "toegestaan"
+   },
+   "loggerRowFiltererBuiltinBlocked": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "geblokkeerd"
+   },
+   "loggerRowFiltererBuiltinEventful": {
+      "description": "A keyword in the built-in row filtering expression: all items corresponding to uBO doing something (blocked, allowed, redirected, etc.)",
+      "message": "afwisselend"
+   },
+   "loggerRowFiltererBuiltinNot": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "Niet"
+   },
+   "loggerRowFiltererBuiltinTip": {
+      "description": "Tooltip for the button to bring up logger output filtering options",
+      "message": "Opties voor loggerfiltering"
+   },
+   "loggerRowFiltererButtonTip": {
+      "description": "Tooltip for the row filterer button in the logger page",
+      "message": "Loggerfiltering in-/uitschakelen"
+   },
+   "loggerSettingDiscardPrompt": {
+      "description": "Logger setting: A sentence to describe the purpose of the settings below",
+      "message": "Loggervermeldingen die niet aan alle drie de onderstaande voorwaarden voldoen, worden automatisch genegeerd:"
+   },
+   "loggerSettingHideColumnContext": {
+      "description": "A label for the context column",
+      "message": "{{input}} Context"
+   },
+   "loggerSettingHideColumnFilter": {
+      "description": "A label for the filter or rule column",
+      "message": "{{input}} Filter/regel"
+   },
+   "loggerSettingHideColumnPartyness": {
+      "description": "A label for the partyness column",
+      "message": "{{input}} 1e/3e partij"
+   },
+   "loggerSettingHideColumnTime": {
+      "description": "A label for the time column",
+      "message": "{{input}} Tijd"
+   },
+   "loggerSettingHideColumnsPrompt": {
+      "description": "Logger settings: a sentence to describe the purpose of the checkboxes below",
+      "message": "Kolommen verbergen:"
+   },
+   "loggerSettingPerEntryLineCount": {
+      "description": "A logger setting",
+      "message": "{{input}} regels per vermelding in verticaal uitgevouwen modus gebruiken"
+   },
+   "loggerSettingPerEntryMaxAge": {
+      "description": "A logger setting",
+      "message": "Vermeldingen van de laatste {{input}} minuten behouden"
+   },
+   "loggerSettingPerTabMaxEntries": {
+      "description": "A logger setting",
+      "message": "Maximaal {{input}} vermeldingen per tabblad behouden"
+   },
+   "loggerSettingPerTabMaxLoads": {
+      "description": "A logger setting",
+      "message": "Maximaal {{input}} paginalaadacties per tabblad behouden"
+   },
+   "loggerStaticFilteringFinderSentence1": {
+      "description": "Below this sentence, the filter list(s) in which the filter was found",
+      "message": "Statisch filter \u003Ccode>{{filter}}\u003C/code> gevonden in:"
+   },
+   "loggerStaticFilteringFinderSentence2": {
+      "description": "Message to show when a filter cannot be found in any filter lists",
+      "message": "Statisch filter kon niet in een van de momenteel ingeschakelde filterlijsten worden gevonden"
+   },
+   "loggerStaticFilteringHeader": {
+      "description": "Small header to identify the static filtering section",
+      "message": "Statisch filter"
+   },
+   "loggerStaticFilteringSentence": {
+      "description": "Used in the static filtering wizard",
+      "message": "Netwerkaanvragen van {{type}} {{action}}{{br}}waarvan de URL overeenkomt met {{url}} {{br}}en die {{origin}} afkomstig zijn,{{br}}{{importance}} er een overeenkomstig uitzonderingsfilter bestaat."
+   },
+   "loggerStaticFilteringSentencePartAllow": {
+      "description": "Used in the static filtering wizard",
+      "message": "toestaan"
+   },
+   "loggerStaticFilteringSentencePartAnyOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "van overal"
+   },
+   "loggerStaticFilteringSentencePartAnyType": {
+      "description": "Used in the static filtering wizard",
+      "message": "alle typen"
+   },
+   "loggerStaticFilteringSentencePartBlock": {
+      "description": "Used in the static filtering wizard",
+      "message": "blokkeren"
+   },
+   "loggerStaticFilteringSentencePartImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "zelfs als"
+   },
+   "loggerStaticFilteringSentencePartNotImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "behalve wanneer"
+   },
+   "loggerStaticFilteringSentencePartOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "van ‘{{origin}}’"
+   },
+   "loggerStaticFilteringSentencePartType": {
+      "description": "Used in the static filtering wizard",
+      "message": "type ‘{{type}}’"
+   },
+   "loggerURLFilteringContextLabel": {
+      "description": "Label for the context selector",
+      "message": "Context:"
+   },
+   "loggerURLFilteringHeader": {
+      "description": "Small header to identify the dynamic URL filtering section",
+      "message": "URL-regel"
+   },
+   "loggerURLFilteringTypeLabel": {
+      "description": "Label for the type selector",
+      "message": "Type:"
+   },
+   "loggerUnpauseTip": {
+      "description": "Tooltip for the play button in the logger page",
+      "message": "Logger hervatten"
+   },
+   "mo": {
+      "message": "mo"
+   },
+   "pickerContextMenuEntry": {
+      "description": "An entry in the browser's contextual menu",
+      "message": "Element blokkeren..."
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "Cosmetische filters"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "Klik, Ctrl-klik"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "Aanmaken"
+   },
+   "pickerNetFilters": {
+      "description": "English: header for a type of filter in the element picker dialog",
+      "message": "Netwerkfilters"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "Kiezen"
+   },
+   "pickerPreview": {
+      "description": "Element picker preview mode: will cause the elements matching the current filter to be removed from the page",
+      "message": "Voorbeeld"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "Afsluiten"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "scripts van de webpagina"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "van derden"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "frames van derden"
+   },
+   "popup3pPassiveRulePrompt": {
+      "description": "",
+      "message": "CSS/afbeeldingen van derden"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "scripts van derden"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "alles"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "op deze pagina"
+   },
+   "popupBlockedOnThisPage_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Geblokkeerd op deze pagina"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "geblokkeerde aanvragen"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "sinds installatie"
+   },
+   "popupBlockedSinceInstall_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Geblokkeerd sinds installatie"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 (13%)",
+      "message": "{{count}} ({{percent}}%)"
+   },
+   "popupDomainsConnected_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Verbonden domeinen"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} van {{total}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "verbonden domeinen"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "afbeeldingen"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "inline scripts"
+   },
+   "popupLessButton_v2": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Minder"
+   },
+   "popupMoreButton_v2": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Meer"
+   },
+   "popupNoCosmeticFiltering_v2": {
+      "description": "Caption for the no-cosmetic-filtering per-site switch",
+      "message": "Cosmetische filters"
+   },
+   "popupNoLargeMedia_v2": {
+      "description": "Caption for the no-large-media per-site switch",
+      "message": "Grote media-elementen"
+   },
+   "popupNoPopups_v2": {
+      "description": "Caption for the no-popups per-site switch",
+      "message": "Pop-upvensters"
+   },
+   "popupNoRemoteFonts_v2": {
+      "description": "Caption for the no-remote-fonts per-site switch",
+      "message": "Externe lettertypen"
+   },
+   "popupNoScripting_v2": {
+      "description": "Caption for the no-scripting per-site switch",
+      "message": "JavaScript"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "of"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page.",
+      "message": "Klikken: uBlock₀ voor deze website in- of uitschakelen.\n\nCtrl+klikken: uBlock₀ alleen voor deze pagina uitschakelen."
+   },
+   "popupPowerSwitchInfo1": {
+      "description": "Message to be read by screen readers",
+      "message": "Klik om uBlock₀ voor deze website uit te schakelen.\n\nCtrl+klik om uBlock₀ alleen op deze pagina uit te schakelen."
+   },
+   "popupPowerSwitchInfo2": {
+      "description": "Message to be read by screen readers",
+      "message": "Klik om uBlock₀ voor deze website in te schakelen."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Dashboard openen"
+   },
+   "popupTipGlobalRules": {
+      "description": "Tooltip when hovering the top-most cell of the global-rules column.",
+      "message": "Algemene regels: deze kolom is voor regels die op alle websites van toepassing zijn."
+   },
+   "popupTipLocalRules": {
+      "description": "Tooltip when hovering the top-most cell of the local-rules column.",
+      "message": "Lokale regels: deze kolom is voor regels die alleen op de huidige website van toepassing zijn.\nLokale regels hebben voorrang op algemene regels."
+   },
+   "popupTipLog": {
+      "description": "Tooltip used for the logger icon in the panel",
+      "message": "Logger openen"
+   },
+   "popupTipNoCosmeticFiltering": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Cosmetische filters voor deze website in-/uitschakelen"
+   },
+   "popupTipNoCosmeticFiltering1": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Klik om cosmetische filters op deze website uit te schakelen"
+   },
+   "popupTipNoCosmeticFiltering2": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Klik om cosmetische filters op deze website in te schakelen"
+   },
+   "popupTipNoLargeMedia": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Grote media-elementen voor deze website in-/uitschakelen"
+   },
+   "popupTipNoLargeMedia1": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Klik om grote media-elementen op deze website te blokkeren"
+   },
+   "popupTipNoLargeMedia2": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Klik om grote media-elementen op deze website niet meer te blokkeren"
+   },
+   "popupTipNoPopups": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Alle pop-ups voor deze website in-/uitschakelen"
+   },
+   "popupTipNoPopups1": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Klik om alle pop-ups op deze website te blokkeren"
+   },
+   "popupTipNoPopups2": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Klik om alle pop-ups op deze website niet meer te blokkeren"
+   },
+   "popupTipNoRemoteFonts": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Blokkeren van externe lettertypen voor deze website in-/uitschakelen"
+   },
+   "popupTipNoRemoteFonts1": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Klik om externe lettertypen op deze website te blokkeren"
+   },
+   "popupTipNoRemoteFonts2": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Klik om externe lettertypen op deze website niet meer te blokkeren"
+   },
+   "popupTipNoScripting1": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "Klik om JavaScript op deze website uit te schakelen"
+   },
+   "popupTipNoScripting2": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "Klik om JavaScript op deze website niet meer uit te schakelen"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "Element­kiezer­modus openen"
+   },
+   "popupTipRevertRules": {
+      "description": "Tooltip when hovering over the eraser in the dynamic filtering pane.",
+      "message": "Klik om uw wijzigingen ongedaan te maken."
+   },
+   "popupTipSaveRules": {
+      "description": "Tooltip when hovering over the padlock in the dynamic filtering pane.",
+      "message": "Klik om uw wijzigingen permanent te maken."
+   },
+   "popupTipZapper": {
+      "description": "Tooltip for the element-zapper icon in the popup panel",
+      "message": "Element­wisser­modus openen"
+   },
+   "popupVersion": {
+      "description": "Example of use: Version 1.26.4",
+      "message": "Versie"
+   },
+   "relaxBlockingMode": {
+      "description": "Label for keyboard shortcut used to relax blocking mode (meant to replace 'Toggle blocking profile')",
+      "message": "Blokkeringsmodus beperken"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "Vastleggen"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "mijn-ublock-dynamische-regels_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Bewerken"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Annuleren"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Opslaan"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "Exporteren naar bestand..."
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "Regelsyntaxis: \u003Ccode>bron bestemming type actie\u003C/code> (\u003Ca href='https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax'>volledige documentatie\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "Lijst van uw dynamische filterregels."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "Importeren uit bestand..."
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Mijn regels"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "Permanente regels"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "Terugzetten"
+   },
+   "rulesSort": {
+      "description": "English: label for sort option.",
+      "message": "Sorteren:"
+   },
+   "rulesSortByDestination": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Bestemming"
+   },
+   "rulesSortBySource": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Bron"
+   },
+   "rulesSortByType": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Regeltype"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "Tijdelijke regels"
+   },
+   "settingPerSiteSwitchGroup": {
+      "description": "",
+      "message": "Standaardgedrag"
+   },
+   "settingPerSiteSwitchGroupSynopsis": {
+      "description": "",
+      "message": "Van deze standaardgedragingen kan per website worden afgeweken"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "",
+      "message": "Ik ben een ervaren gebruiker (\u003Ca href='https://github.com/gorhill/uBlock/wiki/Advanced-user-features'>Lees dit eerst\u003C/a>)"
+   },
+   "settingsAdvancedUserSettings": {
+      "description": "For the tooltip of a link which gives access to advanced settings",
+      "message": "geavanceerde instellingen"
+   },
+   "settingsCloudStorageEnabledPrompt": {
+      "description": "",
+      "message": "Ondersteuning voor cloudopslag inschakelen"
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "Aanduidingen van geblokkeerde elementen verbergen"
+   },
+   "settingsColorBlindPrompt": {
+      "description": "English: Color-blind friendly",
+      "message": "Vriendelijk voor kleurenblinden"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "Contextmenu gebruiken waar mogelijk"
+   },
+   "settingsHyperlinkAuditingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Hyperlink auditing uitschakelen"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "Het aantal geblokkeerde aanvragen op het pictogram tonen"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "Laatste back-up:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "Laatste terugzetactie:"
+   },
+   "settingsNoCSPReportsPrompt": {
+      "description": "background information: https://github.com/gorhill/uBlock/issues/3150",
+      "message": "CSP-rapporten blokkeren"
+   },
+   "settingsNoCosmeticFilteringPrompt": {
+      "description": "",
+      "message": "Cosmetische filters uitschakelen"
+   },
+   "settingsNoLargeMediaPrompt": {
+      "description": "",
+      "message": "Media-elementen groter dan {{input}} KB blokkeren"
+   },
+   "settingsNoRemoteFontsPrompt": {
+      "description": "",
+      "message": "Externe lettertypen blokkeren"
+   },
+   "settingsNoScriptingPrompt": {
+      "description": "The default state for the per-site no-scripting switch",
+      "message": "JavaScript uitschakelen"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Instellingen"
+   },
+   "settingsPrefetchingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Vooraf ophalen uitschakelen (om verbindingen voor geblokkeerde netwerkaanvragen te voorkomen)"
+   },
+   "settingsTooltipsPrompt": {
+      "description": "A checkbox in the Settings pane",
+      "message": "Tooltips uitschakelen"
+   },
+   "settingsWebRTCIPAddressHiddenPrompt": {
+      "description": "English: ",
+      "message": "Het lekken van lokale IP-adressen via WebRTC voorkomen"
+   },
+   "shortcutCapturePlaceholder": {
+      "description": "Placeholder string for input field used to capture a keyboard shortcut",
+      "message": "Typ een sneltoets"
+   },
+   "shortcutsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Sneltoetsen"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "Dashboard tonen"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Logger",
+      "message": "Logger tonen"
+   },
+   "statsPageName": {
+      "description": "Title for the logger window",
+      "message": "uBlock₀ – Logger"
+   },
+   "storageUsed": {
+      "description": " In Setting pane, renders as (example): Storage used: 13.2 MB",
+      "message": "Gebruikte opslagruimte: {{value}} {{unit}}"
+   },
+   "subscribeButton": {
+      "description": "For the button used to subscribe to a filter list",
+      "message": "Abonneren"
+   },
+   "subscriberConfirm": {
+      "description": "No longer used",
+      "message": "De volgende URL aan uw lijsten met aangepaste filters toevoegen?\n\nTitel: ‘{{title}}’\nURL: {{url}}"
+   },
+   "toggleBlockingProfile": {
+      "description": "Label for keyboard shortcut used to toggle blocking profile",
+      "message": "Blokkeringsprofiel omschakelen"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "Wijzigingen toepassen"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "Exporteren..."
+   },
+   "whitelistExportFilename": {
+      "description": "The default filename to use for import/export purpose",
+      "message": "mijn-ublock-vertrouwde-websites_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "Importeren en toevoegen..."
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Vertrouwde websites"
+   },
+   "whitelistPrompt": {
+      "description": "The name of the trusted sites pane.",
+      "message": "De vertrouwde-website-instructies schrijven voor op welke webpagina’s uBlock Origin dient te worden uitgeschakeld. Eén vermelding per regel. Ongeldige instructies worden zonder mededeling genegeerd en uitgecommentarieerd."
+   }
+}

@@ -1,0 +1,7 @@
+2023/08/25-19:48:33.722 3c6 Reusing MANIFEST /home/roi/.config/chromium/Default/IndexedDB/https_prebid.a-mo.net_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/25-19:48:33.722 3c6 Recovering log #3
+2023/08/25-19:48:33.723 3c6 Reusing old log /home/roi/.config/chromium/Default/IndexedDB/https_prebid.a-mo.net_0.indexeddb.leveldb/000003.log 
+2023/08/26-15:35:56.889 3c7 Level-0 table #5: started
+2023/08/26-15:35:56.893 3c7 Level-0 table #5: 1285 bytes OK
+2023/08/26-15:35:56.902 3c7 Delete type=0 #3
+2023/08/26-15:35:56.902 3c7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

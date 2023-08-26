@@ -1,2 +1,9 @@
-# Roi-Romem-Dotfiles
-Here are my dotfiles on my arch linux machie
+# Roi Romem's Dotfiles
+### Overview
+- WM: Hyprland
+- Shell: Fish + Starship
+- Terminal: Kitty
+- Editor: Neovim
+- Menu: wofi
+
+### Gallery

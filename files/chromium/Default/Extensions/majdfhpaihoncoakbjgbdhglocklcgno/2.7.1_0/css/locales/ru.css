@@ -1,0 +1,17 @@
+#mainBuyNow .description-list li {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.sml-banner .sml-banner-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.smart-location-disabled .disabled-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}

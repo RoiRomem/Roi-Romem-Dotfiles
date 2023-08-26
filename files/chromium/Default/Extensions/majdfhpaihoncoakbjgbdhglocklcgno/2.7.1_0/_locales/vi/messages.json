@@ -1,0 +1,2037 @@
+{
+   "1pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Áp dụng các thay đổi"
+   },
+   "1pExport": {
+      "description": "English: Export",
+      "message": "Xuất"
+   },
+   "1pExportFilename": {
+      "description": "English: my-ublock-static-filters_{{datetime}}.txt",
+      "message": "my-ublock-static-filters_{{datetime}}.txt"
+   },
+   "1pFormatHint": {
+      "description": "Short information about how to create custom filters",
+      "message": "Một bộ lọc trên mỗi dòng. Một bộ lọc có thể là một tên máy chủ đơn thuần, hoặc một bộ lọc tương thích với Adblock Plus. Những dòng bắt đầu với \u003Ccode>!\u003C/code> sẽ bị bỏ qua."
+   },
+   "1pImport": {
+      "description": "English: Import and append",
+      "message": "Nhập và thêm vào"
+   },
+   "1pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Bộ lọc của tôi"
+   },
+   "3pApplyChanges": {
+      "description": "English: Apply changes",
+      "message": "Áp dụng các thay đổi"
+   },
+   "3pAutoUpdatePrompt1": {
+      "description": "A checkbox in the _3rd-party filters_ pane",
+      "message": "Các danh sách bộ lọc tự cập nhật."
+   },
+   "3pExternalListObsolete": {
+      "description": "used as a tooltip for the out-of-date icon beside a list",
+      "message": "Đã cũ."
+   },
+   "3pExternalListsHint": {
+      "description": "Short information about how to use the textarea to import external filter lists by URL",
+      "message": "Một URL cho mỗi dòng. Các URL không hợp lệ sẽ được bỏ qua âm thầm."
+   },
+   "3pGroupAds": {
+      "description": "English: Ads",
+      "message": "Quảng cáo"
+   },
+   "3pGroupAnnoyances": {
+      "description": "The header identifying the filter lists in the category 'annoyances'",
+      "message": "Khó chịu"
+   },
+   "3pGroupCustom": {
+      "description": "English: Custom",
+      "message": "Tuỳ chỉnh"
+   },
+   "3pGroupDefault": {
+      "description": "Header for the uBlock filters section in 'Filter lists pane'",
+      "message": "Dựng sẵn"
+   },
+   "3pGroupMalware": {
+      "description": "English: Malware domains",
+      "message": "Các tên miền nguy hiểm"
+   },
+   "3pGroupMultipurpose": {
+      "description": "English: Multipurpose",
+      "message": "Đa chức năng"
+   },
+   "3pGroupPrivacy": {
+      "description": "English: Privacy",
+      "message": "Riêng tư"
+   },
+   "3pGroupRegions": {
+      "description": "English: Regions, languages",
+      "message": "Khu vực, ngôn ngữ"
+   },
+   "3pIgnoreGenericCosmeticFilters": {
+      "description": "This will cause uBO to ignore all generic cosmetic filters.",
+      "message": "Bỏ qua bộ lọc phần tử ẩn chung"
+   },
+   "3pIgnoreGenericCosmeticFiltersInfo": {
+      "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature.",
+      "message": "\u003Cp>Bộ lọc phần tử ẩn chung là là những bộ lọc phần tử ẩn áp dụng cho tất cả các website.\u003Cp>Mặc dù được xử lý hiệu quả bởi uBlock₀, các bộ lọc phần tử ẩn chung vẫn chiếm dụng bộ nhớ và CPU quá mức trên một số trang web, đặc biệt là các trang lớn và lâu năm.\u003Cp>Kích hoạt tuỳ chọn này sẽ loại bỏ sử dụng bộ nhớ và CPU quá mức thêm vào trang web nhờ khả năng xử lý các bộ lọc phần tử ẩn chung và cũng làm giảm sử dụng bộ nhớ của uBlock₀.\u003Cp>Chúng tôi khuyến cáo bạn nên kích hoạt tuỳ chọn này trên các thiết bị không quá mạnh."
+   },
+   "3pImport": {
+      "description": "The label for the checkbox used to import external filter lists",
+      "message": "Nhập..."
+   },
+   "3pLastUpdate": {
+      "description": "used as a tooltip for the clock icon beside a list",
+      "message": "Cập nhật lần cuối: {{ago}}.\nNhấn để cập nhật ngay."
+   },
+   "3pListsOfBlockedHostsHeader": {
+      "description": "English: Lists of blocked hosts",
+      "message": "Danh sách những máy chủ bị chặn"
+   },
+   "3pListsOfBlockedHostsPerListStats": {
+      "description": "Appears aside each filter list in the _3rd-party filters_ pane",
+      "message": "Đã dùng {{used}} trên {{total}}"
+   },
+   "3pListsOfBlockedHostsPrompt": {
+      "description": "Appears at the top of the _3rd-party filters_ pane",
+      "message": "{{netFilterCount}} bộ lọc mạng ＋ {{cosmeticFilterCount}} bộ lọc phần tử ẩn từ:"
+   },
+   "3pNetworkError": {
+      "description": "used as a tooltip for error icon beside a list",
+      "message": "Một lỗi mạng khiến cho tài nguyên không thể cập nhật."
+   },
+   "3pPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Danh sách bộ lọc"
+   },
+   "3pParseAllABPHideFiltersInfo": {
+      "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature.",
+      "message": "\u003Cp>Tuỳ chọn này kích hoạt phân tích và áp dụng \u003Ca href=\"https://adblockplus.org/en/faq_internal#elemhide\">các bộ lọc &ldquo;ẩn phần tử&rdquo; tương thích với Adblock Plus\u003C/a>. Những bộ lọc này dùng để ẩn phần tử trong một trang web được xem là gây phiền hà đến thị giác và không thể chặn bởi bộ lọc dựa địa chỉ trang web.\u003C/p>\u003Cp>Kích hoạt tính năng này sẽ tăng mức sử dụng bộ nhớ của uBlock₀.\u003C/p>"
+   },
+   "3pParseAllABPHideFiltersPrompt1": {
+      "description": "English: Parse and enforce Adblock+ element hiding filters.",
+      "message": "Phân tích và thi hành bộ lọc phần tử ẩn."
+   },
+   "3pPurgeAll": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "Dọn tất cả bộ nhớ đệm"
+   },
+   "3pUpdateNow": {
+      "description": "A button in the in the _3rd-party filters_ pane",
+      "message": "Cập nhật ngay"
+   },
+   "3pUpdating": {
+      "description": "used as a tooltip for the spinner icon beside a list",
+      "message": "Đang cập nhật..."
+   },
+   "3pViewContent": {
+      "description": "used as a tooltip for eye icon beside a list",
+      "message": "xem nội dung"
+   },
+   "AbortError": {
+      "message": "Yêu cầu đăng nhập đã bị hủy bỏ bởi trình duyệt. Vui lòng thử lại."
+   },
+   "AboutPrivacy": {
+      "message": "Chính sách bảo mật"
+   },
+   "AboutTerms": {
+      "message": "Điều khoản dịch vụ"
+   },
+   "Account": {
+      "message": "Tài khoản"
+   },
+   "AccountExpires": {
+      "message": "Hết hạn vào"
+   },
+   "AccountFree": {
+      "message": "Miễn phí"
+   },
+   "AccountManage": {
+      "message": "Quản lý"
+   },
+   "AccountSubscription": {
+      "message": "Đăng ký"
+   },
+   "AccountType": {
+      "message": "Kiểu tài khoản"
+   },
+   "AccountUpgrade": {
+      "message": "Nâng cấp lên hạng sang"
+   },
+   "AccountUsername": {
+      "message": "Tên đăng nhập"
+   },
+   "ActivateAccount": {
+      "message": "Kích hoạt tài khoản của bạn!"
+   },
+   "AddCurrentSite": {
+      "message": "Thêm trang web hiện tại"
+   },
+   "AddNewProxy": {
+      "message": "Thêm proxy mới"
+   },
+   "AddSite": {
+      "message": "Thêm (các) trang web"
+   },
+   "AddSiteInputHint": {
+      "message": "Bạn có thể nhập dấu phẩy, dấu chấm phẩy hoặc dòng mới để phân tách danh sách các trang web"
+   },
+   "AllLocations": {
+      "message": "Tất cả các vị trí"
+   },
+   "AllowExtensionNotifications": {
+      "message": "Cho phép thông báo trên màn hình"
+   },
+   "AppDesc": {
+      "message": "Fast, ultra secure, and easy to use VPN service to protect your privacy online. Enjoy Unlimited Traffic and Bandwidth!"
+   },
+   "AppName": {
+      "message": "Free VPN for Chrome - VPN Proxy VeePN"
+   },
+   "ApplyAllDomains": {
+      "message": "Áp dụng cho tất cả các miền phụ"
+   },
+   "AppsForAllDevices": {
+      "message": "Ứng dụng cho tất cả các thiết bị"
+   },
+   "AuthFailMessage": {
+      "message": "Nếu gần đây bạn đã thay đổi mật khẩu của mình trên trang web VeePN thì việc xác thực lại bằng tiện ích mở rộng có thể khắc phục lỗi này.\u003Cbr />\u003Cbr />Để được giúp đỡ và hỗ trợ, liên hệ với chúng tôi \u003Ca href=\"https://support.veepn.com\">support team\u003C/a>."
+   },
+   "AuthFailPageTitle": {
+      "message": "Lỗi xác thực | VeePN"
+   },
+   "AuthFailTitle": {
+      "message": "Lỗi xác thực"
+   },
+   "AuthScreensAlreadyHaveAccount": {
+      "message": "Bạn đã có tài khoản chưa?"
+   },
+   "AuthScreensEmail": {
+      "message": "Địa chỉ email"
+   },
+   "Authorization": {
+      "message": "Ủy quyền"
+   },
+   "AuthorizationDisabled": {
+      "message": "Ủy quyền bị vô hiệu hóa"
+   },
+   "AuthorizationEnabled": {
+      "message": "Ủy quyền được bật"
+   },
+   "AutoConnect": {
+      "message": "Tự động kết nối"
+   },
+   "AutoConnectDescription": {
+      "message": "Tự động kết nối khi khởi động trình duyệt"
+   },
+   "AutoExcludeDescription": {
+      "message": "Danh sách các trang web bạn muốn bỏ qua khi bật kết nối VeePN"
+   },
+   "AutoExcludeMessage": {
+      "message": "Danh sách loại trừ: thêm các trang web mà bạn muốn bỏ qua khi kết nối VeePN được bật"
+   },
+   "AutoExcludeTitle": {
+      "message": "Loại trừ các trang web"
+   },
+   "Back": {
+      "message": "Trở lại"
+   },
+   "BannerDownloadAppMobileHint": {
+      "message": "Đơn giản hóa tải xuống ứng dụng trên thiết bị của bạn với mã QR này"
+   },
+   "BannerDownloadAppTitle": {
+      "message": "Bảo vệ tất cả các thiết bị của bạn bằng cách tải xuống ứng dụng"
+   },
+   "BeConnectedBeSafe": {
+      "message": "Được kết nối. Hãy an toàn."
+   },
+   "BlockAds": {
+      "message": "Khối quảng cáo"
+   },
+   "BlockAdsDescription": {
+      "message": "Bật hoặc Tắt chặn quảng cáo trong trình duyệt Chrome của bạn trong khi sử dụng VeePN"
+   },
+   "BlockCookies": {
+      "message": "Chặn thông báo bật lên \"chúng tôi sử dụng cookie\""
+   },
+   "BlockCookiesDescription": {
+      "message": "Chặn biểu ngữ gây phiền nhiễu \"Chúng tôi sử dụng cookie\" trên tất cả các trang web"
+   },
+   "BlockFbclid": {
+      "message": "Xóa các tham số FBCLID"
+   },
+   "BlockFbclidDescription": {
+      "message": "Xóa Facebook Nhấp vào Định danh tham số FBCLID khỏi các liên kết gửi đi. Chúng được sử dụng để theo dõi thông tin về chuyến thăm của bạn đến một trang web"
+   },
+   "BlockGclid": {
+      "message": "Xóa các tham số GCLID"
+   },
+   "BlockGclidDescription": {
+      "message": "Xóa các tham số Định danh Google Click (GCLID) khỏi các liên kết gửi đi. Chúng được sử dụng để theo dõi thông tin về chuyến thăm của bạn đến một trang web"
+   },
+   "BlockMalware": {
+      "message": "Tránh phần mềm độc hại"
+   },
+   "BlockMalwareDescription": {
+      "message": "Khối truy cập vào phần mềm độc hại đã biết, lừa đảo và các tên miền độc hại khác"
+   },
+   "BlockReferer": {
+      "message": "Vô hiệu hóa người giới thiệu trên trang web"
+   },
+   "BlockRefererDescription": {
+      "message": "Ngăn gửi địa chỉ của trang web hiện tại đến một trang web khác khi theo liên kết"
+   },
+   "BlockSocial": {
+      "message": "Theo dõi khối xã hội"
+   },
+   "BlockSocialDescription": {
+      "message": "Chặn theo dõi các tiện ích và nút mạng xã hội"
+   },
+   "BlockTrackers": {
+      "message": "Dừng theo dõi"
+   },
+   "BlockTrackersDescription": {
+      "message": "Bật hoặc Tắt trình theo dõi phân tích (như Google) trong khi sử dụng VeePN"
+   },
+   "BlockUtm": {
+      "message": "Xóa tham số UTM"
+   },
+   "BlockUtmDescription": {
+      "message": "Xóa các tham số Mô hình theo dõi Urchin (UTM) khỏi các URL bạn nhấp vào. Chúng được sử dụng để theo dõi thông tin về chuyến thăm của bạn đến một trang web"
+   },
+   "BuyGetMore": {
+      "message": "Hơn"
+   },
+   "BuyPremium": {
+      "message": "Nâng cấp lên hạng sang"
+   },
+   "BuyPremiumBannerButton": {
+      "message": "Nâng cấp"
+   },
+   "BuyPremiumBannerText": {
+      "message": "Bạn có tài khoản MIỄN PHÍ"
+   },
+   "Cancel": {
+      "message": "Hủy bỏ"
+   },
+   "CannotUseVeePNMessage": {
+      "message": "VeePN không thể được sử dụng vì một tiện ích mở rộng khác đang kiểm soát cài đặt proxy trình duyệt của bạn."
+   },
+   "CantModify": {
+      "message": "Bạn không thể sửa đổi hoặc xóa proxy này khi kết nối đang hoạt động"
+   },
+   "ChangeExtensionSettings": {
+      "message": "Sự mở rộng Cài đặt"
+   },
+   "ChooseVeepnPremium": {
+      "message": "Chọn VeePN Premium."
+   },
+   "ClearLogs": {
+      "message": "Xóa các bản ghi"
+   },
+   "CloseText": {
+      "message": "Đóng"
+   },
+   "CodeFieldCannotBeEmpty": {
+      "message": "Trường mã không được để trống"
+   },
+   "ConfigurationTitle": {
+      "message": "Cấu hình"
+   },
+   "Confirm": {
+      "message": "Xác nhận"
+   },
+   "ConfirmSettingsImportMessage": {
+      "message": "Cài đặt ứng dụng hiện tại của bạn sẽ bị ghi đè bởi cài đặt từ tệp bên ngoài. Các URL bổ sung trong Vị trí thông minh và danh sách Loại trừ sẽ được thêm vào thiết lập trang web hiện tại của bạn."
+   },
+   "ConnectionButtonConnected": {
+      "message": "VPN đang BẬT"
+   },
+   "ConnectionButtonConnecting": {
+      "message": "Đang kết nối..."
+   },
+   "ConnectionButtonDisconnected": {
+      "message": "VPN đang TẮT"
+   },
+   "ConnectionButtonDisconnecting": {
+      "message": "Ngắt kết nối ..."
+   },
+   "ConnectionFailMessage": {
+      "message": "Bạn có thể đã mất kết nối với internet, kết nối của bạn có thể tạm thời bị gián đoạn hoặc máy chủ VeePN mà bạn đang kết nối có thể có vấn đề về kết nối."
+   },
+   "ConnectionFailPageTitle": {
+      "message": "Lỗi kết nối | VeePN"
+   },
+   "ConnectionFailTitle": {
+      "message": "Lỗi kết nối"
+   },
+   "ConnectionModes": {
+      "message": "Chế độ kết nối"
+   },
+   "CurrentRegionIp": {
+      "message": "IP của bạn:"
+   },
+   "CustomProxies": {
+      "message": "QUY TRÌNH TÙY CHỈNH"
+   },
+   "CustomProxy": {
+      "message": "Proxy tùy chỉnh"
+   },
+   "CustomProxyAlreadyExists": {
+      "message": "Proxy tùy chỉnh với các cài đặt này đã tồn tại"
+   },
+   "CustomProxyDescription": {
+      "message": "Cho phép thêm máy chủ proxy tùy chỉnh"
+   },
+   "CustomProxyIsOFF": {
+      "message": "Proxy tùy chỉnh đang TẮT"
+   },
+   "CustomProxyIsON": {
+      "message": "Proxy tùy chỉnh đang BẬT"
+   },
+   "Debug": {
+      "message": "Gỡ lỗi"
+   },
+   "DebugDescription": {
+      "message": "Trong khi Ghi nhật ký gỡ lỗi được bật, tiện ích mở rộng sẽ ghi nhật ký các thông báo gỡ lỗi vào một tệp"
+   },
+   "DebugTitle": {
+      "message": "Gỡ lỗi đăng nhập"
+   },
+   "DeleteButton": {
+      "message": "Xóa bỏ"
+   },
+   "DevicesProtected": {
+      "message": "10 thiết bị được bảo vệ"
+   },
+   "DisableOtherExtensions": {
+      "message": "Vô hiệu hóa các tiện ích mở rộng khác"
+   },
+   "Disabled": {
+      "message": "tàn tật"
+   },
+   "DisabledDebugMode": {
+      "message": "Ghi nhật ký gỡ lỗi đang TẮT"
+   },
+   "DomainExamplePlaceholder": {
+      "message": "domain.com, *.domain.com, *.com"
+   },
+   "DownloadLogs": {
+      "message": "Tải xuống nhật ký"
+   },
+   "DuplicateRuleInList": {
+      "message": "Quy tắc được sao chép. Vui lòng xóa."
+   },
+   "EditButton": {
+      "message": "Chỉnh sửa"
+   },
+   "EditProxy": {
+      "message": "Chỉnh sửa proxy"
+   },
+   "EnableAuthorization": {
+      "message": "Bật ủy quyền"
+   },
+   "Enabled": {
+      "message": "kích hoạt"
+   },
+   "EnabledDebugMode": {
+      "message": "Ghi nhật ký gỡ lỗi đang BẬT"
+   },
+   "Enter2FAcode": {
+      "message": "Nhập mã 2FA"
+   },
+   "EnterHostnameOrIP": {
+      "message": "Nhập tên máy chủ hoặc IP"
+   },
+   "EnterPassword": {
+      "message": "Nhập mật khẩu"
+   },
+   "EnterPort": {
+      "message": "Vào cổng"
+   },
+   "EnterRecoveryCode": {
+      "message": "Nhập mã khôi phục"
+   },
+   "EnterUsername": {
+      "message": "Điền tên đăng nhập"
+   },
+   "ErrorDuplicateInSmartLocation": {
+      "message": "Không thể thêm trang web này vì nó đã có trong danh sách Vị trí thông minh"
+   },
+   "ErrorFileContent": {
+      "message": "There is an issue in file data content"
+   },
+   "ErrorFileExtention": {
+      "message": "Phần mở rộng tệp sai"
+   },
+   "ErrorFileSize": {
+      "message": "Kích thước tệp Lớn hơn rồi đến 2MiB"
+   },
+   "ErrorForbiddenSymbol": {
+      "message": "Biểu tượng này không được phép"
+   },
+   "ErrorNoFile": {
+      "message": "Không có tệp nào được thêm vào"
+   },
+   "ErrorNotASite": {
+      "message": "Đây không phải là một trang web hợp lệ"
+   },
+   "ErrorSiteDuplicate": {
+      "message": "Không thể thêm trang web này vì nó đã có trong danh sách này"
+   },
+   "ErrorSiteEmpty": {
+      "message": "Tên trang web trống"
+   },
+   "ExcludeMode": {
+      "message": "Loại trừ các trang web"
+   },
+   "ExcludeModeDescription": {
+      "message": "Thêm các trang web mà bạn muốn bỏ qua khi bật kết nối VeePN"
+   },
+   "Extension": {
+      "message": "Sự mở rộng"
+   },
+   "ExtensionUpdated": {
+      "message": "Tiện ích mở rộng được cập nhật"
+   },
+   "FavoriteLocations": {
+      "message": "Yêu thích"
+   },
+   "Fill": {
+      "message": "Điền vào các trường được tô sáng"
+   },
+   "FirstTooltipTitlePartOne": {
+      "message": "Những gì bạn nhận được"
+   },
+   "FirstTooltipTitlePartTwo": {
+      "message": "với VeePN"
+   },
+   "FollowLink": {
+      "message": "Theo liên kết từ email xác nhận"
+   },
+   "FreeLocations": {
+      "message": "Vị trí Miễn phí"
+   },
+   "GB": {
+      "description": "short for 'gigabytes'",
+      "message": "GB"
+   },
+   "GetAccess": {
+      "message": "Nhận quyền truy cập"
+   },
+   "GetPremium": {
+      "message": "Lấy tiền thưởng"
+   },
+   "HelpFaq": {
+      "message": "Câu hỏi thường gặp"
+   },
+   "HelpManage": {
+      "message": "Quản lý tài khoản & thiết bị"
+   },
+   "HelpSupport": {
+      "message": "Ủng hộ"
+   },
+   "HoursOfTtrialLeft": {
+      "message": "giờ dùng thử còn lại"
+   },
+   "Import": {
+      "message": "Nhập khẩu"
+   },
+   "IntroRow1": {
+      "message": "Nâng cấp lên VeePN cao cấp"
+   },
+   "IntroRow2": {
+      "message": "Hỗ trợ đa thiết bị"
+   },
+   "IntroRow3": {
+      "message": "Địa điểm máy chủ cao cấp"
+   },
+   "IntroRow4": {
+      "message": "Dữ liệu & băng thông không giới hạn"
+   },
+   "IntroRow5": {
+      "message": "Hỗ trợ khách hàng tận tâm"
+   },
+   "IntroRow6": {
+      "message": "Trải nghiệm duyệt web miễn phí"
+   },
+   "IntroRow7": {
+      "message": "hoặc tải xuống VeePN cho:"
+   },
+   "IntroTitle": {
+      "message": "Cảm ơn bạn đã cài đặt VeePN!"
+   },
+   "KB": {
+      "description": "short for 'kilobytes'",
+      "message": "KB"
+   },
+   "LabelCreatePassword": {
+      "message": "Mật khẩu"
+   },
+   "LabelEmail": {
+      "message": "Nhập email"
+   },
+   "LabelEnterPassword": {
+      "message": "Mật khẩu"
+   },
+   "LanguageWarp": {
+      "message": "Ngôn ngữ làm cong"
+   },
+   "LanguageWarpDescription": {
+      "message": "Che dấu ngôn ngữ trình duyệt của bạn để khớp với ngôn ngữ proxy khi được kết nối"
+   },
+   "LiveSupport": {
+      "message": "Hỗ trợ trực tiếp 24/7"
+   },
+   "LocationListTitle": {
+      "message": "Địa điểm"
+   },
+   "LocationPremiumOnly": {
+      "message": "Vị trí có sẵn cho người dùng cao cấp"
+   },
+   "LocationShowLess": {
+      "message": "Hiện ít hơn"
+   },
+   "LocationShowMore": {
+      "message": "Cho xem nhiều hơn"
+   },
+   "LocationTitle": {
+      "message": "Máy chủ"
+   },
+   "LocationWarp": {
+      "message": "Vị trí làm cong"
+   },
+   "LocationWarpDescription": {
+      "message": "Che dấu vị trí GPS của bạn để khớp với vị trí proxy khi được kết nối"
+   },
+   "LogMeOutOnClose": {
+      "message": "Đăng xuất tôi trên trình duyệt đóng"
+   },
+   "LogMeOutOnCloseDisabled": {
+      "message": "Không thể kiểm soát cài đặt này trong khi thông tin đăng nhập không được ghi nhớ (màn hình đăng nhập)"
+   },
+   "LogMeOutOnCloseTooltip": {
+      "message": "Sau khi mở lại trình duyệt, bạn sẽ không tự động đăng nhập lại"
+   },
+   "Login": {
+      "message": "Đăng nhập"
+   },
+   "LoginNoAccount": {
+      "message": "Bạn chưa có tài khoản?"
+   },
+   "Logout": {
+      "message": "Đăng xuất"
+   },
+   "MB": {
+      "description": "short for 'megabytes'",
+      "message": "MB"
+   },
+   "MapOptimal": {
+      "message": "Máy chủ tự động"
+   },
+   "MapTitle": {
+      "message": "Duyệt từ:"
+   },
+   "MaskUserAgent": {
+      "message": "Thay đổi tác nhân người dùng"
+   },
+   "MaskUserAgentDescription": {
+      "message": "Làm mới khi bạn cần một tác nhân người dùng mới và hệ thống của chúng tôi sẽ thay đổi ngẫu nhiên"
+   },
+   "MenuAbout": {
+      "message": "Giới thiệu về VeePN"
+   },
+   "MenuAccount": {
+      "message": "Tài khoản của tôi"
+   },
+   "MenuGet30Days": {
+      "message": "Nhận 30 ngày miễn phí"
+   },
+   "MenuHelp": {
+      "message": "Cứu giúp"
+   },
+   "MenuRateUs": {
+      "message": "Đánh giá chúng tôi"
+   },
+   "MenuSettings": {
+      "message": "Cài đặt"
+   },
+   "MenuShare": {
+      "message": "Chia sẻ ứng dụng này"
+   },
+   "MenuUpgrade": {
+      "message": "Nâng cấp lên hạng sang"
+   },
+   "ModesCookies": {
+      "message": "Trình chặn cookie"
+   },
+   "ModesProxyLocal": {
+      "message": "Bỏ qua mạng cục bộ"
+   },
+   "ModesTooltipsCookie": {
+      "message": "Bật hoặc tắt cookie web trong phiên VeePN của bạn."
+   },
+   "ModesTooltipsProxyLocal": {
+      "message": "Bỏ qua các tài nguyên cục bộ, chẳng hạn như các trang web nằm trong mạng nội bộ, localhost, v.v."
+   },
+   "ModesTooltipsWebRTC": {
+      "message": "WebRTC xác định IP thông qua giao thức Thiết lập kết nối tương tác (ICE). Kích hoạt tính năng này để ngăn chặn điều đó."
+   },
+   "ModesWebRTC": {
+      "message": "Trình chặn WebRTC"
+   },
+   "MoneyBackGuarantee": {
+      "message": "Đảm bảo hoàn tiền trong 30 ngày"
+   },
+   "Name": {
+      "message": "VeePN"
+   },
+   "NetworkError": {
+      "message": "Yêu cầu đăng nhập thất bại do lỗi mạng. Vui lòng thử lại."
+   },
+   "NoLogs": {
+      "message": "Không có nhật ký nào vào lúc này"
+   },
+   "NoNetworkConnection": {
+      "message": "Không có kết nối mạng"
+   },
+   "NoProxiesAdded": {
+      "message": "Không có proxy nào được thêm vào"
+   },
+   "NoRegionSelected": {
+      "message": "Không có vùng được chọn"
+   },
+   "NoSitesAdded": {
+      "message": "Không có trang web nào được thêm vào"
+   },
+   "NoSitesAddedDescription": {
+      "message": "Thêm các trang web yêu thích của bạn để thay đổi vị trí tự động"
+   },
+   "NoThanksContinueAsFree": {
+      "message": "Không, cảm ơn, tiếp tục miễn phí"
+   },
+   "NotificationButtonFreeDownload": {
+      "message": "Tải về miễn phí"
+   },
+   "NotificationButtonNextTime": {
+      "message": "Lần tới"
+   },
+   "NotificationDownloadMessage": {
+      "message": "Bảo vệ toàn bộ kết nối internet của bạn, không chỉ trình duyệt"
+   },
+   "NotificationDownloadTitle": {
+      "message": "Hãy thử Máy khách VPN Máy tính để bàn của chúng tôi"
+   },
+   "OfflineError": {
+      "message": "Yêu cầu đăng nhập thất bại vì bạn dường như ngoại tuyến. Vui lòng kiểm tra nếu bạn được kết nối với internet."
+   },
+   "OptimizedStreamingServers": {
+      "message": "Máy chủ phát trực tuyến được tối ưu hóa"
+   },
+   "Password8": {
+      "message": "Mật khẩu phải chứa ít nhất 8 ký tự."
+   },
+   "PasswordRequired": {
+      "message": "Mật khẩu người dùng yêu cầu"
+   },
+   "PasswordToLong": {
+      "message": "Mật khẩu người dùng quá dài"
+   },
+   "PasswordToShort": {
+      "message": "Mật khẩu người dùng quá ngắn"
+   },
+   "PleaseWait": {
+      "message": "Đang tải. Xin vui lòng chờ."
+   },
+   "Policy": {
+      "message": "Chính sách bảo mật"
+   },
+   "Port": {
+      "message": "Hải cảng"
+   },
+   "PortLonger": {
+      "message": "Cổng không được dài hơn 65535"
+   },
+   "PortRequired": {
+      "message": "Cổng máy chủ là bắt buộc"
+   },
+   "Powered": {
+      "message": "Được cung cấp bởi VeePN"
+   },
+   "PremiumLocations": {
+      "message": "Vị trí đặc biệt"
+   },
+   "PremiumServers50Countries": {
+      "message": "Hơn 2500 máy chủ cao cấp ở 50 quốc gia"
+   },
+   "ProblemWithAuthentication": {
+      "message": "Vấn đề với xác thực?"
+   },
+   "ProtocolSelect": {
+      "message": "Giao thức"
+   },
+   "QrCodeDescription": {
+      "message": "Sử dụng máy ảnh điện thoại của bạn để quét mã QR này và tải xuống ứng dụng"
+   },
+   "QrCodeTitle": {
+      "message": "Quét mã QR"
+   },
+   "RateUsRedirect1": {
+      "message": "Bạn thật tuyệt vời! \nXin vui lòng dành chút thời gian để cho chúng tôi xếp hạng 5 sao trên %{browser} Web Store."
+   },
+   "RateUsRedirect2": {
+      "message": "Trong giây lát, bạn sẽ được chuyển hướng ..."
+   },
+   "RateUsText": {
+      "message": "Nhấp vào các ngôi sao để xếp hạng chúng tôi"
+   },
+   "RateUsThankYou": {
+      "message": "Cảm ơn bạn!"
+   },
+   "RateUsTitle": {
+      "message": "Yêu VeePN?"
+   },
+   "RecoveryCode": {
+      "message": "Mã khôi phục"
+   },
+   "RefreshToSeeChanges": {
+      "message": "Làm mới để xem các thay đổi"
+   },
+   "Register": {
+      "message": "Đăng ký"
+   },
+   "RegisterDescription": {
+      "message": "Bằng cách tạo tài khoản, bạn đồng ý với VeePN's"
+   },
+   "RegisterDescriptionAnd": {
+      "message": "&"
+   },
+   "RegisterHaveAnAccount": {
+      "message": "Bạn co săn san để tạo một tai khoản"
+   },
+   "RememberMe": {
+      "message": "Nhớ tôi"
+   },
+   "RememberMeTooltip": {
+      "message": "Lưu các thông tin đăng nhập giữa các lần khởi động lại trình duyệt"
+   },
+   "ResetPassword": {
+      "message": "Đặt lại mật khẩu"
+   },
+   "Restore": {
+      "message": "Gửi mật khẩu"
+   },
+   "RestoreForgot": {
+      "message": "Quên mật khẩu?"
+   },
+   "Search": {
+      "message": "Tìm kiếm"
+   },
+   "SecondTooltipTitle": {
+      "message": "Lợi ích của chúng tôi!"
+   },
+   "Security": {
+      "message": "nơi an ninh"
+   },
+   "SendResetLink": {
+      "message": "Gửi Liên kết Đặt lại"
+   },
+   "Server": {
+      "message": "Máy chủ"
+   },
+   "ServerIpOrHostnameIsIncorrect": {
+      "message": "Ip máy chủ hoặc tên máy chủ không chính xác"
+   },
+   "ServerIpRequired": {
+      "message": "Tên máy chủ hoặc ip máy chủ là bắt buộc"
+   },
+   "ServersFromCountries": {
+      "message": "Máy chủ từ hơn 89 quốc gia"
+   },
+   "SettingControlledByOther": {
+      "message": "Cài đặt này đang được kiểm soát bởi một phần mở rộng khác."
+   },
+   "SettingNotControllable": {
+      "message": "Tiện ích mở rộng không thể kiểm soát cài đặt này."
+   },
+   "SettingsExport": {
+      "message": "Cài đặt Xuất"
+   },
+   "SettingsExportDescription": {
+      "message": "Cho phép bạn chia sẻ cài đặt cho những người dùng khác"
+   },
+   "SettingsExportSuccess": {
+      "message": "Đã xuất thành công cài đặt"
+   },
+   "SettingsImport": {
+      "message": "Cài đặt Nhập"
+   },
+   "SettingsImportDescription": {
+      "message": "Cho phép bạn sử dụng cài đặt được chia sẻ bởi những người dùng khác"
+   },
+   "SettingsImportSuccess": {
+      "message": "Đã nhập thành công cài đặt"
+   },
+   "SettingsLanguage": {
+      "message": "Ngôn ngữ"
+   },
+   "SettingsNew": {
+      "message": "MỚI"
+   },
+   "SettingsNotifications": {
+      "message": "Thông báo"
+   },
+   "SmartLocationControlsTitle": {
+      "message": "Thêm trang web"
+   },
+   "SmartLocationDescription": {
+      "message": "Tự động ẩn vị trí của tôi khi tôi truy cập các trang web cụ thể"
+   },
+   "SmartLocationFeatureDisabledTitle": {
+      "message": "Vị trí thông minh đang TẮT"
+   },
+   "SmartLocationFeatureEnableDescription": {
+      "message": "VeePN sẽ tự động chuyển đổi vị trí khi bạn truy cập các trang web yêu thích của mình"
+   },
+   "SmartLocationFeatureEnableTitle": {
+      "message": "Vị trí thông minh đang BẬT"
+   },
+   "SmartLocationHint": {
+      "message": "Vị trí thông minh là phiên bản cập nhật của tính năng Tự động bảo vệ: đặt vị trí trước và kết nối riêng tư với các trang web yêu thích của bạn khi bạn truy cập chúng."
+   },
+   "SmartLocationListTitle": {
+      "message": "Các trang web yêu thích của bạn"
+   },
+   "SmartLocationTitle": {
+      "message": "Vị trí thông minh"
+   },
+   "StatisticCookies": {
+      "message": "Cookies"
+   },
+   "TOS": {
+      "message": "Điều khoản dịch vụ"
+   },
+   "TimeWarp": {
+      "message": "Làm cong thời gian"
+   },
+   "TimeWarpDescription": {
+      "message": "Ẩn thời gian trình duyệt của bạn để khớp với thời gian proxy khi được kết nối"
+   },
+   "TimeoutError": {
+      "message": "Yêu cầu đăng nhập đã hết hạn sau %{seconds} giây Vui lòng thử lại."
+   },
+   "ToggleTheme": {
+      "message": "Chế độ tối"
+   },
+   "ToggleThemeDescription": {
+      "message": "Chuyển đổi giữa chế độ tối và sáng"
+   },
+   "TooManyRequestsError": {
+      "message": "Quá nhiều lần thử đăng nhập thất bại. Thử lại sau."
+   },
+   "TooltipContinue": {
+      "message": "Tiếp tục"
+   },
+   "TooltipDone": {
+      "message": "Khởi đầu"
+   },
+   "TooltipFeature1": {
+      "message": "Mã hóa dữ liệu trực tuyến"
+   },
+   "TooltipFeature2": {
+      "message": "IP ẩn"
+   },
+   "TooltipFeature3": {
+      "message": "Truy cập vào các trang web bị giới hạn địa lý"
+   },
+   "TooltipFeature4": {
+      "message": "Quảng cáo bị chặn và nội dung độc hại"
+   },
+   "TooltipFeature5": {
+      "message": "Kết nối an toàn"
+   },
+   "TooltipFeature6": {
+      "message": "Một tài khoản VPN cho các ứng dụng đa nền tảng"
+   },
+   "TooltipFeature7": {
+      "message": "Không có nhật ký hoạt động. Không có nhật ký kết nối"
+   },
+   "TooltipFeature8": {
+      "message": "Vị trí miễn phí"
+   },
+   "TooltipNext": {
+      "message": "Kế tiếp"
+   },
+   "TooltipPrevious": {
+      "message": "Trước"
+   },
+   "TrialGetMore": {
+      "message": "Hơn"
+   },
+   "TrialOneTime": {
+      "message": "Cung cấp một lần"
+   },
+   "TrialRow1": {
+      "message": "Hỗ trợ đa thiết bị"
+   },
+   "TrialRow2": {
+      "message": "Địa điểm máy chủ cao cấp"
+   },
+   "TrialRow3": {
+      "message": "Dữ liệu & băng thông không giới hạn"
+   },
+   "TrialThanks": {
+      "message": "Bắt đầu một phiên bản miễn phí"
+   },
+   "TrialTitle": {
+      "message": "Nâng cấp lên VeePN cao cấp"
+   },
+   "TrialUpgrade": {
+      "message": "Nâng cấp lên hạng sang"
+   },
+   "TryAgain": {
+      "message": "Vui lòng thử lại"
+   },
+   "TurnOnSmartLocationBannerButton": {
+      "message": "Kết nối vị trí thông minh"
+   },
+   "TurnOnSmartLocationBannerTitle": {
+      "message": "Bật chuyển đổi vị trí tự động"
+   },
+   "TwoFactorSubTitle": {
+      "message": "Vui lòng sử dụng ứng dụng xác thực của bạn để lấy mã và nhập mã đó vào bên dưới"
+   },
+   "TwoFactorTitle": {
+      "message": "Xác thực hai yếu tố"
+   },
+   "Unavailable": {
+      "message": "không có sẵn"
+   },
+   "UnavailableDescription": {
+      "message": "Một tiện ích mở rộng %{browser} khác đang kiểm soát cài đặt proxy của bạn làm gián đoạn hiệu suất của VeePN."
+   },
+   "UnavailableDisable": {
+      "message": "Xin vui lòng, vô hiệu hóa phần mở rộng"
+   },
+   "UnavailableTitle": {
+      "message": "Dịch vụ bị gián đoạn"
+   },
+   "UnexpectedServerResponse": {
+      "message": "Yêu cầu đăng nhập trả về phản hồi máy chủ không mong muốn (%{statusLine})"
+   },
+   "UnknownError": {
+      "message": "Lỗi không xác định đã xảy ra."
+   },
+   "UnlimitedSpeed": {
+      "message": "Tốc độ không giới hạn"
+   },
+   "UnlockCustomProxy": {
+      "message": "Mở khóa Proxy tùy chỉnh"
+   },
+   "UnlockCustomProxyDesc": {
+      "message": "Quản lý và chuyển đổi giữa nhiều proxy một cách nhanh chóng"
+   },
+   "UnlockSmartLocation": {
+      "message": "Mở khóa vị trí thông minh"
+   },
+   "UnlockSmartLocationDescription": {
+      "message": "Bật chuyển đổi vị trí tự động cho các trang web yêu thích của bạn"
+   },
+   "UpgradeBrowserMessage": {
+      "message": "VeePN không thể được sử dụng vì phiên bản của bạn %{browser} Đã lỗi thời. Vui lòng nâng cấp %{browser} đến phiên bản mới nhất của nó."
+   },
+   "UpgradeToPro": {
+      "message": "Nâng cấp lên Pro"
+   },
+   "UserAgentDefault": {
+      "message": "Vỡ nợ"
+   },
+   "UserAgentRandom": {
+      "message": "Ngẫu nhiên"
+   },
+   "UserAgentSelect": {
+      "message": "Chọn tác nhân User-agent"
+   },
+   "UsernameLabel": {
+      "message": "Tên tài khoản"
+   },
+   "UsernameRequired": {
+      "message": "tên người dùng là bắt buộc"
+   },
+   "UsernameToLong": {
+      "message": "Tên người dùng quá dài"
+   },
+   "UsernameToShort": {
+      "message": "Tên người dùng quá ngắn"
+   },
+   "Version": {
+      "message": "Phiên bản"
+   },
+   "Wait": {
+      "message": "Xin vui lòng chờ"
+   },
+   "WebRTCDescription": {
+      "message": "WebRTC là một giao thức truyền thông dựa trên JavaScript và có thể rò rỉ địa chỉ IP thực của bạn"
+   },
+   "WebRTCLeakProtection": {
+      "message": "Chặn phát hiện IP WebRTC"
+   },
+   "WelcomeToNewVersion": {
+      "message": "Chào mừng bạn đến %{appVersion}"
+   },
+   "WrongEmail": {
+      "message": "Email không chính xác."
+   },
+   "WrongEmailAndPassword": {
+      "message": "Email hoặc mật khẩu không đúng."
+   },
+   "WrongPassword": {
+      "message": "Mật khẩu không đúng."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Tên người dùng và/hoặc mật khẩu không chính xác."
+   },
+   "YouAreConnectedTo": {
+      "message": "Bạn được kết nối với %{region}"
+   },
+   "YouAreNotConnected": {
+      "message": "Bạn chưa kết nối"
+   },
+   "YourCustomProxies": {
+      "message": "Proxy tùy chỉnh của bạn"
+   },
+   "aboutBackupDataButton": {
+      "description": "Text for button to create a backup of all settings",
+      "message": "Sao lưu vào tập tin..."
+   },
+   "aboutBackupFilename": {
+      "description": "English: my-ublock-backup_{{datetime}}.txt",
+      "message": "my-ublock-backup_{{datetime}}.txt"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "Thay đổi"
+   },
+   "aboutCode": {
+      "description": "English: Source code (GPLv3)",
+      "message": "Mã nguồn (GPLv3)"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Những người đóng góp"
+   },
+   "aboutDependencies": {
+      "description": "Shown in the About pane",
+      "message": "Các phụ thuộc bên ngoài (tương thích GPLv3):"
+   },
+   "aboutFilterLists": {
+      "description": "Link text to uBO's own filter lists repo",
+      "message": "Danh sách bộ lọc"
+   },
+   "aboutIssues": {
+      "description": "Text for a link to official issue tracker",
+      "message": "Theo dõi vấn đề"
+   },
+   "aboutPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Giới thiệu"
+   },
+   "aboutResetDataButton": {
+      "description": "English: Reset to default settings...",
+      "message": "Đặt lại cấu hình mặc định..."
+   },
+   "aboutResetDataConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Các thiết lập sẽ bị xóa và uBlock₀ sẽ khởi động lại. \n\nThiết lập uBlock₀ về cấu hình ban đầu?"
+   },
+   "aboutRestoreDataButton": {
+      "description": "English: Restore from file...",
+      "message": "Khôi phục từ tập tin..."
+   },
+   "aboutRestoreDataConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Các thiết lập của bạn sẽ bị ghi đè bởi dữ liệu đã lưu vào lúc {{time}}, và uBlock₀ sẽ khởi động lại. \n\nGhi đè các thiết lập hiện tại bằng dữ liệu đã lưu?"
+   },
+   "aboutRestoreDataError": {
+      "description": "Message to display when an error occurred during restore",
+      "message": "Không thể đọc dữ liệu hoặc dữ liệu không hợp lệ"
+   },
+   "aboutSourceCode": {
+      "description": "Link text to source code repo",
+      "message": "Mã nguồn"
+   },
+   "aboutSupport": {
+      "description": "A link for where to get support",
+      "message": "Hỗ trợ"
+   },
+   "aboutTranslations": {
+      "description": "Link text to translations repo",
+      "message": "Bản dịch"
+   },
+   "aboutWiki": {
+      "description": "English: project' wiki on GitHub",
+      "message": "Wiki"
+   },
+   "advancedSettingsPageName": {
+      "description": "Title for the advanced settings page",
+      "message": "Cài đặt nâng cao"
+   },
+   "advancedSettingsWarning": {
+      "description": "A warning to users at the top of 'Advanced settings' page",
+      "message": "Cảnh báo! Bạn phải chịu trách nhiệm cho những nguy cơ khi thay đổi các cài đặt nâng cao này."
+   },
+   "assetViewerPageName": {
+      "description": "Title for the asset viewer page",
+      "message": "uBlock₀ - Trình xem nội dung"
+   },
+   "clickToLoad": {
+      "description": "Message used in frame placeholders",
+      "message": "Click to load"
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "Tên thiết bị này:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "...\n..."
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "Nhập từ lưu trữ trực tuyến"
+   },
+   "cloudPullAndMerge": {
+      "description": "tooltip",
+      "message": "Nhập từ bộ lưu trữ trực tuyến và ghép với các thiết lập hiện tại"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "Xuất ra lưu trữ trực tuyến"
+   },
+   "contextMenuTemporarilyAllowLargeMediaElements": {
+      "description": "A context menu entry, present when large media elements have been blocked on the current site",
+      "message": "Tạm thời cho phép yếu tố đa phương tiện lớn"
+   },
+   "dashboardName": {
+      "description": "English: uBlock₀ — Dashboard",
+      "message": "uBlock₀ — Bảng điều khiển"
+   },
+   "dashboardUnsavedWarning": {
+      "description": "A warning in the dashboard when navigating away from unsaved changes",
+      "message": "Cảnh báo! Bạn có các thay đổi chưa được lưu"
+   },
+   "dashboardUnsavedWarningIgnore": {
+      "description": "Label for button to ignore unsaved changes",
+      "message": "Bỏ qua"
+   },
+   "dashboardUnsavedWarningStay": {
+      "description": "Label for button to prevent navigating away from unsaved changes",
+      "message": "Ở lại"
+   },
+   "docblockedBack": {
+      "description": "English: Go back",
+      "message": "Trở lại"
+   },
+   "docblockedClose": {
+      "description": "English: Close this window",
+      "message": "Đóng cửa sổ này"
+   },
+   "docblockedDisablePermanent": {
+      "description": "English: Permanently",
+      "message": "Vĩnh viễn"
+   },
+   "docblockedDisableTemporary": {
+      "description": "English: Temporarily",
+      "message": "Tạm thời"
+   },
+   "docblockedFoundIn": {
+      "description": "English: List of filter list names follows",
+      "message": "Tìm thấy trong:"
+   },
+   "docblockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "không có thông số"
+   },
+   "docblockedProceed": {
+      "description": "English: Disable strict blocking for {{hostname}} ...",
+      "message": "Vô hiệu chặn nghiêm ngặt cho {{hostname}}"
+   },
+   "docblockedPrompt1": {
+      "description": "Used in the strict-blocking page",
+      "message": "uBloc Origin đã chặn tải trang sau:"
+   },
+   "docblockedPrompt2": {
+      "description": "Used in the strict-blocking page",
+      "message": "Vì bộ lọc sau"
+   },
+   "dummy": {
+      "description": "so we dont need to deal with comma for last entry",
+      "message": "Đây là mục cuối"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} ngày trước"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} giờ trước"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} phút trước"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "một ngày trước"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "một giờ trước"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "một phút trước"
+   },
+   "errorCantConnectTo": {
+      "description": "English: Network error: {{msg}}",
+      "message": "Lỗi kết nối: {{msg}}"
+   },
+   "extName": {
+      "description": "extension name.",
+      "message": "uBlock Origin"
+   },
+   "extShortDesc": {
+      "description": "this will be in the Chrome web store: must be 132 characters or less",
+      "message": "Cuối cùng, đã có một công cụ chặn quảng cáo hiệu quả, tiêu tốn ít CPU và bộ nhớ."
+   },
+   "fennecMenuItemBlockingOff": {
+      "description": "Firefox-specific: appears as 'uBlock₀ (off)'",
+      "message": "tắt"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "Áp dụng các thay đổi"
+   },
+   "genericBytes": {
+      "description": "",
+      "message": "byte"
+   },
+   "genericCopyToClipboard": {
+      "description": "Label for buttons used to copy something to the clipboard",
+      "message": "Sao chép vào bảng tạm"
+   },
+   "genericMergeViewScrollLock": {
+      "description": "Tooltip for the button used to lock scrolling between the views in the 'My rules' pane",
+      "message": "Đóng/mở khóa cuộn"
+   },
+   "genericRevert": {
+      "description": "for generic 'Revert' buttons",
+      "message": "Phục hồi"
+   },
+   "genericSubmit": {
+      "description": "for generic 'Submit' buttons",
+      "message": "Gửi"
+   },
+   "logAll": {
+      "description": "Appears in the logger's tab selector",
+      "message": "Tất cả"
+   },
+   "logBehindTheScene": {
+      "description": "Pretty name for behind-the-scene network requests",
+      "message": "Tabless"
+   },
+   "logFilterPrompt": {
+      "description": "Placeholder string for logger output filtering input field",
+      "message": "lọc mục ghi nhận"
+   },
+   "logRequestsHeaderDomain": {
+      "description": "English: Domain",
+      "message": "Tên miền"
+   },
+   "logRequestsHeaderFilter": {
+      "description": "English: Filter",
+      "message": "Bộ lọc"
+   },
+   "logRequestsHeaderType": {
+      "description": "English: Type",
+      "message": "Loại"
+   },
+   "logRequestsHeaderURL": {
+      "description": "English: URL",
+      "message": "URL"
+   },
+   "loggerClearTip": {
+      "description": "Tooltip for the eraser in the logger page; used to blank the content of the logger",
+      "message": "Xoá nhật ký"
+   },
+   "loggerCurrentTab": {
+      "description": "Appears in the logger's tab selector",
+      "message": "Tab hiện tại"
+   },
+   "loggerDomInspectorTip": {
+      "description": "Tooltip for the DOM inspector button in the logger page",
+      "message": "Chuyển đổi trình kiểm tra DOM"
+   },
+   "loggerEntryDetailsContext": {
+      "description": "Label to identify a context field (typically a hostname)",
+      "message": "Ngữ cảnh"
+   },
+   "loggerEntryDetailsFilter": {
+      "description": "Label to identify a filter field",
+      "message": "Bộ lọc"
+   },
+   "loggerEntryDetailsFilterList": {
+      "description": "Label to identify a filter list field",
+      "message": "Danh sách bộ lọc"
+   },
+   "loggerEntryDetailsHeader": {
+      "description": "Small header to identify the 'Details' pane for a specific logger entry",
+      "message": "Chi tiết"
+   },
+   "loggerEntryDetailsPartyness": {
+      "description": "Label to identify a field providing partyness information",
+      "message": "Nguồn khác bên thứ nhất"
+   },
+   "loggerEntryDetailsRootContext": {
+      "description": "Label to identify a root context field (typically a hostname)",
+      "message": "Ngữ cảnh gốc"
+   },
+   "loggerEntryDetailsRule": {
+      "description": "Label to identify a rule field",
+      "message": "Quy tắc"
+   },
+   "loggerEntryDetailsType": {
+      "description": "Label to identify the type of an entry",
+      "message": "Kiểu"
+   },
+   "loggerEntryDetailsURL": {
+      "description": "Label to identify the URL of an entry",
+      "message": "URL"
+   },
+   "loggerExportEncodeMarkdown": {
+      "description": "Label for radio-button to pick export text format",
+      "message": "Markdown"
+   },
+   "loggerExportEncodePlain": {
+      "description": "Label for radio-button to pick export text format",
+      "message": "Không có định dạng"
+   },
+   "loggerExportFormatList": {
+      "description": "Label for radio-button to pick export format",
+      "message": "Danh sách"
+   },
+   "loggerExportFormatTable": {
+      "description": "Label for radio-button to pick export format",
+      "message": "Bảng"
+   },
+   "loggerInfoTip": {
+      "description": "Tooltip for the top-right info label in the logger page",
+      "message": "uBlock Origin wiki: Tác vụ log"
+   },
+   "loggerPauseTip": {
+      "description": "Tooltip for the pause button in the logger page",
+      "message": "Tạm dừng nhật ký (loại bỏ tất cả dữ liệu đang nhập vào)"
+   },
+   "loggerPopupPanelTip": {
+      "description": "Tooltip for the popup panel button in the logger page",
+      "message": "Đóng/mở hộp thoại popup"
+   },
+   "loggerReloadTip": {
+      "description": "Tooltip for the reload button in the logger page",
+      "message": "Tải lại nội dung thẻ"
+   },
+   "loggerRowFiltererBuiltin1p": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "Bên thứ nhất"
+   },
+   "loggerRowFiltererBuiltin3p": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "Bên thứ ba"
+   },
+   "loggerRowFiltererBuiltinAllowed": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "được phép"
+   },
+   "loggerRowFiltererBuiltinBlocked": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "bị chặn"
+   },
+   "loggerRowFiltererBuiltinEventful": {
+      "description": "A keyword in the built-in row filtering expression: all items corresponding to uBO doing something (blocked, allowed, redirected, etc.)",
+      "message": "eventful"
+   },
+   "loggerRowFiltererBuiltinNot": {
+      "description": "A keyword in the built-in row filtering expression",
+      "message": "Không phải"
+   },
+   "loggerRowFiltererBuiltinTip": {
+      "description": "Tooltip for the button to bring up logger output filtering options",
+      "message": "Lựa chọn lọc tác vụ log"
+   },
+   "loggerRowFiltererButtonTip": {
+      "description": "Tooltip for the row filterer button in the logger page",
+      "message": "Đóng/mở lọc tác vụ log"
+   },
+   "loggerSettingDiscardPrompt": {
+      "description": "Logger setting: A sentence to describe the purpose of the settings below",
+      "message": "Các mục log không đáp ứng cả ba điều kiện dưới đây sẽ tự động bị loại bỏ:"
+   },
+   "loggerSettingHideColumnContext": {
+      "description": "A label for the context column",
+      "message": "{{input}} Ngữ cảnh"
+   },
+   "loggerSettingHideColumnFilter": {
+      "description": "A label for the filter or rule column",
+      "message": "{{input}} Bộ lọc/quy tắc"
+   },
+   "loggerSettingHideColumnPartyness": {
+      "description": "A label for the partyness column",
+      "message": "{{input}} Partyness"
+   },
+   "loggerSettingHideColumnTime": {
+      "description": "A label for the time column",
+      "message": "{{input}} Thời gian"
+   },
+   "loggerSettingHideColumnsPrompt": {
+      "description": "Logger settings: a sentence to describe the purpose of the checkboxes below",
+      "message": "Ẩn cột:"
+   },
+   "loggerSettingPerEntryLineCount": {
+      "description": "A logger setting",
+      "message": "Sử dụng {{input}} dòng trên mỗi entry trong chế độ mở rộng theo chiều dọc"
+   },
+   "loggerSettingPerEntryMaxAge": {
+      "description": "A logger setting",
+      "message": "Bảo tồn các mục từ {{input}} phút trước"
+   },
+   "loggerSettingPerTabMaxEntries": {
+      "description": "A logger setting",
+      "message": "Bảo tồn nhiều nhất {{input}} mục trên mỗi tab"
+   },
+   "loggerSettingPerTabMaxLoads": {
+      "description": "A logger setting",
+      "message": "Bảo tồn nhiều nhất {{input}} trang được tải trên mỗi thẻ"
+   },
+   "loggerStaticFilteringFinderSentence1": {
+      "description": "Below this sentence, the filter list(s) in which the filter was found",
+      "message": "Bộ lọc tĩnh \u003Ccode>{{filter}}\u003C/code> phát hiện trong:"
+   },
+   "loggerStaticFilteringFinderSentence2": {
+      "description": "Message to show when a filter cannot be found in any filter lists",
+      "message": "Bộ lọc tĩnh \u003Ccode>{{filter}}\u003C/code> không thể tìm thấy trong bất kỳ danh sách bộ lọc hiện được bật nào"
+   },
+   "loggerStaticFilteringHeader": {
+      "description": "Small header to identify the static filtering section",
+      "message": "Bộ lọc tĩnh"
+   },
+   "loggerStaticFilteringSentence": {
+      "description": "Used in the static filtering wizard",
+      "message": "{{action}} yêu cầu mạng của {{type}} {{br}}có địa chỉ URL phù hợp {{url}} {{br}}và từ nguồn {{origin}},{{br}}{{importance}} có một bộ lọc loại trừ phù hợp."
+   },
+   "loggerStaticFilteringSentencePartAllow": {
+      "description": "Used in the static filtering wizard",
+      "message": "Cho phép"
+   },
+   "loggerStaticFilteringSentencePartAnyOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "từ mọi nơi"
+   },
+   "loggerStaticFilteringSentencePartAnyType": {
+      "description": "Used in the static filtering wizard",
+      "message": "mọi loại"
+   },
+   "loggerStaticFilteringSentencePartBlock": {
+      "description": "Used in the static filtering wizard",
+      "message": "Chặn"
+   },
+   "loggerStaticFilteringSentencePartImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "loại trừ nếu"
+   },
+   "loggerStaticFilteringSentencePartNotImportant": {
+      "description": "Used in the static filtering wizard",
+      "message": "loại trừ khi"
+   },
+   "loggerStaticFilteringSentencePartOrigin": {
+      "description": "Used in the static filtering wizard",
+      "message": "từ “{{origin}}”"
+   },
+   "loggerStaticFilteringSentencePartType": {
+      "description": "Used in the static filtering wizard",
+      "message": "loại “{{type}}”"
+   },
+   "loggerURLFilteringContextLabel": {
+      "description": "Label for the context selector",
+      "message": "Ngữ cảnh:"
+   },
+   "loggerURLFilteringHeader": {
+      "description": "Small header to identify the dynamic URL filtering section",
+      "message": "Quy tắc URL"
+   },
+   "loggerURLFilteringTypeLabel": {
+      "description": "Label for the type selector",
+      "message": "Loại:"
+   },
+   "loggerUnpauseTip": {
+      "description": "Tooltip for the play button in the logger page",
+      "message": "Tiếp tục tác vụ nhật ký"
+   },
+   "mo": {
+      "message": "mo"
+   },
+   "pickerContextMenuEntry": {
+      "description": "An entry in the browser's contextual menu",
+      "message": "Chặn phần tử..."
+   },
+   "pickerCosmeticFilters": {
+      "description": "English: Cosmetic filters",
+      "message": "Bộ lọc phần tử ẩn"
+   },
+   "pickerCosmeticFiltersHint": {
+      "description": "English: Click, Ctrl-click",
+      "message": "Nhấp chuột, Ctrl-nhấp chuột"
+   },
+   "pickerCreate": {
+      "description": "English: Create",
+      "message": "Tạo"
+   },
+   "pickerNetFilters": {
+      "description": "English: header for a type of filter in the element picker dialog",
+      "message": "Các bộ lọc mạng"
+   },
+   "pickerPick": {
+      "description": "English: Pick",
+      "message": "Chọn"
+   },
+   "pickerPreview": {
+      "description": "Element picker preview mode: will cause the elements matching the current filter to be removed from the page",
+      "message": "Xem trước"
+   },
+   "pickerQuit": {
+      "description": "English: Quit",
+      "message": "Thoát"
+   },
+   "popup1pScriptRulePrompt": {
+      "description": "",
+      "message": "script bên thứ nhất"
+   },
+   "popup3pAnyRulePrompt": {
+      "description": "",
+      "message": "bên thứ ba"
+   },
+   "popup3pFrameRulePrompt": {
+      "description": "",
+      "message": "khung bên thứ ba"
+   },
+   "popup3pPassiveRulePrompt": {
+      "description": "",
+      "message": "CSS/hình ảnh từ bên thứ ba"
+   },
+   "popup3pScriptRulePrompt": {
+      "description": "",
+      "message": "script bên thứ ba"
+   },
+   "popupAnyRulePrompt": {
+      "description": "",
+      "message": "tất cả"
+   },
+   "popupBlockedOnThisPagePrompt": {
+      "description": "English: on this page",
+      "message": "trên trang này"
+   },
+   "popupBlockedOnThisPage_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Đã chặn trên trang này"
+   },
+   "popupBlockedRequestPrompt": {
+      "description": "English: requests blocked",
+      "message": "yêu cầu đã chặn"
+   },
+   "popupBlockedSinceInstallPrompt": {
+      "description": "English: since install",
+      "message": "từ lúc cài đặt"
+   },
+   "popupBlockedSinceInstall_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Đã chặn từ khi cài đặt"
+   },
+   "popupBlockedStats": {
+      "description": "Example: 15 (13%)",
+      "message": "{{count}} hoặc {{percent}}%"
+   },
+   "popupDomainsConnected_v2": {
+      "description": "For the new mobile-friendly popup design",
+      "message": "Tên miền đã kết nối"
+   },
+   "popupHitDomainCount": {
+      "description": "appears in popup",
+      "message": "{{count}} trên tổng {{total}}"
+   },
+   "popupHitDomainCountPrompt": {
+      "description": "appears in popup",
+      "message": "tên miền đã kết nối"
+   },
+   "popupImageRulePrompt": {
+      "description": "",
+      "message": "hình ảnh"
+   },
+   "popupInlineScriptRulePrompt": {
+      "description": "",
+      "message": "script cùng dòng"
+   },
+   "popupLessButton_v2": {
+      "description": "Label to be used to hide popup panel sections",
+      "message": "Ít hơn"
+   },
+   "popupMoreButton_v2": {
+      "description": "Label to be used to show popup panel sections",
+      "message": "Khác"
+   },
+   "popupNoCosmeticFiltering_v2": {
+      "description": "Caption for the no-cosmetic-filtering per-site switch",
+      "message": "Lọc phần tử ẩn"
+   },
+   "popupNoLargeMedia_v2": {
+      "description": "Caption for the no-large-media per-site switch",
+      "message": "Thành phần đa phương tiện kích thước lớn"
+   },
+   "popupNoPopups_v2": {
+      "description": "Caption for the no-popups per-site switch",
+      "message": "Cửa sổ bật lên"
+   },
+   "popupNoRemoteFonts_v2": {
+      "description": "Caption for the no-remote-fonts per-site switch",
+      "message": "Phông từ xa"
+   },
+   "popupNoScripting_v2": {
+      "description": "Caption for the no-scripting per-site switch",
+      "message": "JavaScript"
+   },
+   "popupOr": {
+      "description": "English: or",
+      "message": "hoặc"
+   },
+   "popupPowerSwitchInfo": {
+      "description": "English: Click: disable/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page.",
+      "message": "Nhấp chuột: vô hiệu/kích hoạt uBlock₀ cho trang này.\nCtrl + nhấp chuột: chỉ vô hiệu uBlock₀ trên trang này."
+   },
+   "popupPowerSwitchInfo1": {
+      "description": "Message to be read by screen readers",
+      "message": "Nhấp chuột để vô hiệu uBlock₀ cho trang này. \n\nCtrl + nhấp chuột để tắt uBlock₀ chỉ trên trang này."
+   },
+   "popupPowerSwitchInfo2": {
+      "description": "Message to be read by screen readers",
+      "message": "Nhấp để bật uBlock₀ trên trang này."
+   },
+   "popupTipDashboard": {
+      "description": "English: Click to open the dashboard",
+      "message": "Mở bảng điều khiển"
+   },
+   "popupTipGlobalRules": {
+      "description": "Tooltip when hovering the top-most cell of the global-rules column.",
+      "message": "Quy tắc chung: cột này dành cho quy tắc áp dụng cho mọi trang."
+   },
+   "popupTipLocalRules": {
+      "description": "Tooltip when hovering the top-most cell of the local-rules column.",
+      "message": "Quy tắc nội bộ: cột này dành cho quy tắc chỉ áp dụng cho trang hiện tại.\nQuy tắc nội bộ sẽ thay thế quy tắc chung."
+   },
+   "popupTipLog": {
+      "description": "Tooltip used for the logger icon in the panel",
+      "message": "Mở nhật ký"
+   },
+   "popupTipNoCosmeticFiltering": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Bật/tắt bộ lọc phần tử trên trang này"
+   },
+   "popupTipNoCosmeticFiltering1": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Nhấn để tắt bộ lọc phần tử ẩn trên trang này"
+   },
+   "popupTipNoCosmeticFiltering2": {
+      "description": "Tooltip for the no-cosmetic-filtering per-site switch",
+      "message": "Nhấn để bật bộ lọc phần tử ẩn trên trang này"
+   },
+   "popupTipNoLargeMedia": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Bật tắt chặn yếu tố đa phương tiện lớn trên trang này"
+   },
+   "popupTipNoLargeMedia1": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Nhấp để chặn các thành phần đa phương tiện lớn trên trang này"
+   },
+   "popupTipNoLargeMedia2": {
+      "description": "Tooltip for the no-large-media per-site switch",
+      "message": "Nhấp để ngừng chặn các thành phần đa phương tiện kích thước lớn trên trang này"
+   },
+   "popupTipNoPopups": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Bật/tắt chặn popup của trang này"
+   },
+   "popupTipNoPopups1": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Nhấp để chặn tất cả cửa sổ bật lên trên trang này"
+   },
+   "popupTipNoPopups2": {
+      "description": "Tooltip for the no-popups per-site switch",
+      "message": "Nhấp để hủy chặn tất cả cửa sổ bật lên trên trang này"
+   },
+   "popupTipNoRemoteFonts": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Bật tắt chặn font từ xa trên trang này"
+   },
+   "popupTipNoRemoteFonts1": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Nhấp để chặn font từ xa trên trang này"
+   },
+   "popupTipNoRemoteFonts2": {
+      "description": "Tooltip for the no-remote-fonts per-site switch",
+      "message": "Nhấp để hủy chặn font từ xa trên trang này"
+   },
+   "popupTipNoScripting1": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "Nhấp để vô hiệu hóa JavaScript trên trang này"
+   },
+   "popupTipNoScripting2": {
+      "description": "Tooltip for the no-scripting per-site switch",
+      "message": "Nhấp để ngừng vô hiệu hóa JavaScript trên trang này"
+   },
+   "popupTipPicker": {
+      "description": "English: Enter element picker mode",
+      "message": "Chuyển sang chế độ chọn phần tử"
+   },
+   "popupTipRevertRules": {
+      "description": "Tooltip when hovering over the eraser in the dynamic filtering pane.",
+      "message": "Bấm để hoàn tác thay đổi."
+   },
+   "popupTipSaveRules": {
+      "description": "Tooltip when hovering over the padlock in the dynamic filtering pane.",
+      "message": "Bấm để thay đổi vĩnh viễn."
+   },
+   "popupTipZapper": {
+      "description": "Tooltip for the element-zapper icon in the popup panel",
+      "message": "Chuyển sang chế độ chặn phần tử tạm thời"
+   },
+   "popupVersion": {
+      "description": "Example of use: Version 1.26.4",
+      "message": "Phiên bản"
+   },
+   "relaxBlockingMode": {
+      "description": "Label for keyboard shortcut used to relax blocking mode (meant to replace 'Toggle blocking profile')",
+      "message": "Nới lỏng chế độ chặn"
+   },
+   "rulesCommit": {
+      "description": "This will persist temporary rules",
+      "message": "Xác nhận"
+   },
+   "rulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "my-ublock-dynamic-rules_{{datetime}}.txt"
+   },
+   "rulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Chỉnh sửa"
+   },
+   "rulesEditDiscard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Huỷ"
+   },
+   "rulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Lưu"
+   },
+   "rulesExport": {
+      "description": "",
+      "message": "Xuất ra tập tin"
+   },
+   "rulesFormatHint": {
+      "description": "English: dynamic rule syntax and full documentation.",
+      "message": "Quy tắc cú pháp: \u003Ccode>nguồn đích loại hành động\u003C/code> (\u003Ca href='https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-rule-syntax'>tài liệu đầy đủ\u003C/a>)."
+   },
+   "rulesHint": {
+      "description": "English: List of your dynamic filtering rules.",
+      "message": "Danh sách quy tắc lọc chủ động."
+   },
+   "rulesImport": {
+      "description": "",
+      "message": "Nhập từ tập tin..."
+   },
+   "rulesPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Quy tắc của tôi"
+   },
+   "rulesPermanentHeader": {
+      "description": "header",
+      "message": "Quy tắc vĩnh viễn"
+   },
+   "rulesRevert": {
+      "description": "This will remove all temporary rules",
+      "message": "Phục hồi"
+   },
+   "rulesSort": {
+      "description": "English: label for sort option.",
+      "message": "Sắp xếp:"
+   },
+   "rulesSortByDestination": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Đích"
+   },
+   "rulesSortBySource": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Nguồn"
+   },
+   "rulesSortByType": {
+      "description": "English: a sort option for list of rules.",
+      "message": "Loại quy tắc"
+   },
+   "rulesTemporaryHeader": {
+      "description": "header",
+      "message": "Quy tắc tạm thời"
+   },
+   "settingPerSiteSwitchGroup": {
+      "description": "",
+      "message": "Hành vi mặc định"
+   },
+   "settingPerSiteSwitchGroupSynopsis": {
+      "description": "",
+      "message": "Những hành vi này có thể thay thế tiêu chuẩn từng trang"
+   },
+   "settingsAdvancedUserPrompt": {
+      "description": "",
+      "message": "Tôi là một người dùng có kinh nghiệm (\u003Ca href='https://github.com/gorhill/uBlock/wiki/Advanced-user-features'>Yêu cầu đọc qua\u003C/a>)"
+   },
+   "settingsAdvancedUserSettings": {
+      "description": "For the tooltip of a link which gives access to advanced settings",
+      "message": "cài đặt nâng cao"
+   },
+   "settingsCloudStorageEnabledPrompt": {
+      "description": "",
+      "message": "Kích hoạt hỗ trợ lưu trữ trực tuyến"
+   },
+   "settingsCollapseBlockedPrompt": {
+      "description": "English: Hide placeholders of blocked elements",
+      "message": "Ẩn các phần giữ chỗ của những phần tử bị chặn"
+   },
+   "settingsColorBlindPrompt": {
+      "description": "English: Color-blind friendly",
+      "message": "Thân thiện với người mù màu"
+   },
+   "settingsContextMenuPrompt": {
+      "description": "English: Make use of context menu where appropriate",
+      "message": "Dùng menu ngữ cảnh nơi thích hợp"
+   },
+   "settingsHyperlinkAuditingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Vô hiệu giám sát siêu liên kết"
+   },
+   "settingsIconBadgePrompt": {
+      "description": "English: Show the number of blocked requests on the icon",
+      "message": "Hiển thị số lượng yêu cầu bị chặn trên biểu tượng"
+   },
+   "settingsLastBackupPrompt": {
+      "description": "English: Last backup:",
+      "message": "Lần sao lưu trước:"
+   },
+   "settingsLastRestorePrompt": {
+      "description": "English: Last restore:",
+      "message": "Lần phục hồi trước:"
+   },
+   "settingsNoCSPReportsPrompt": {
+      "description": "background information: https://github.com/gorhill/uBlock/issues/3150",
+      "message": "Chặn các báo cáo CSP"
+   },
+   "settingsNoCosmeticFilteringPrompt": {
+      "description": "",
+      "message": "Vô hiệu lọc phần tử ẩn"
+   },
+   "settingsNoLargeMediaPrompt": {
+      "description": "",
+      "message": "Chặn yếu tố đa phương tiện lớn hơn {{input}} KB"
+   },
+   "settingsNoRemoteFontsPrompt": {
+      "description": "",
+      "message": "Chặn font từ xa"
+   },
+   "settingsNoScriptingPrompt": {
+      "description": "The default state for the per-site no-scripting switch",
+      "message": "Vô hiệu hóa JavaScript"
+   },
+   "settingsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Cấu hình"
+   },
+   "settingsPrefetchingDisabledPrompt": {
+      "description": "English: ",
+      "message": "Vô hiệu tải trước (để chặn bất kỳ kết nối với những yêu cầu mạng đã chặn)"
+   },
+   "settingsTooltipsPrompt": {
+      "description": "A checkbox in the Settings pane",
+      "message": "Vô hiệu mách nước"
+   },
+   "settingsWebRTCIPAddressHiddenPrompt": {
+      "description": "English: ",
+      "message": "Ngặn WebRTC làm lộ địa chỉ IP nội bộ"
+   },
+   "shortcutCapturePlaceholder": {
+      "description": "Placeholder string for input field used to capture a keyboard shortcut",
+      "message": "Nhập phím tắt"
+   },
+   "shortcutsPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Phím tắt"
+   },
+   "showDashboardButton": {
+      "description": "Firefox/Fennec-specific: Show Dashboard",
+      "message": "Hiện bảng điều khiển"
+   },
+   "showNetworkLogButton": {
+      "description": "Firefox/Fennec-specific: Show Logger",
+      "message": "Hiện nhật ký"
+   },
+   "statsPageName": {
+      "description": "Title for the logger window",
+      "message": "uBlock₀ — Nhật ký các yêu cầu"
+   },
+   "storageUsed": {
+      "description": " In Setting pane, renders as (example): Storage used: 13.2 MB",
+      "message": "Bộ nhớ đã dùng: {{value}} byte"
+   },
+   "subscribeButton": {
+      "description": "For the button used to subscribe to a filter list",
+      "message": "Subscribe"
+   },
+   "subscriberConfirm": {
+      "description": "No longer used",
+      "message": "uBlock₀: Thêm URL dưới đây vào bộ lọc tuỳ biến của bạn?\n\nTên: \"{{title}}\"\nURL: {{url}}"
+   },
+   "toggleBlockingProfile": {
+      "description": "Label for keyboard shortcut used to toggle blocking profile",
+      "message": "Bật tắt hồ sơ chặn"
+   },
+   "whitelistApply": {
+      "description": "English: Apply changes",
+      "message": "Áp dụng các thay đổi"
+   },
+   "whitelistExport": {
+      "description": "English: Export",
+      "message": "Xuất"
+   },
+   "whitelistExportFilename": {
+      "description": "The default filename to use for import/export purpose",
+      "message": "my-ublock-whitelist_{{datetime}}.txt"
+   },
+   "whitelistImport": {
+      "description": "English: Import and append",
+      "message": "Nhập và thêm vào"
+   },
+   "whitelistPageName": {
+      "description": "appears as tab name in dashboard",
+      "message": "Danh sách trắng"
+   },
+   "whitelistPrompt": {
+      "description": "The name of the trusted sites pane.",
+      "message": "Danh sách tên các máy chủ mà uBlock Origin sẽ bị chặn. Một mục nhập trên mỗi dòng. Tên máy chủ không hợp lệ sẽ được tự động bỏ qua."
+   }
+}
