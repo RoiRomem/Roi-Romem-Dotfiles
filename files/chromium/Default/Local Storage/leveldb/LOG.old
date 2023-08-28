@@ -1,6 +1,3 @@
-2023/08/28-12:31:52.265 3 Reusing MANIFEST /home/roi/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2023/08/28-12:31:52.267 3 Recovering log #121
-2023/08/28-12:31:52.269 3 Reusing old log /home/roi/.config/chromium/Default/Local Storage/leveldb/000121.log 
-2023/08/28-12:33:19.961 3 Level-0 table #125: started
-2023/08/28-12:33:19.966 3 Level-0 table #125: 52953 bytes OK
-2023/08/28-12:33:19.973 3 Delete type=0 #121
+2023/08/28-14:38:40.572 3 Reusing MANIFEST /home/roi/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/08/28-14:38:40.575 3 Recovering log #124
+2023/08/28-14:38:40.577 3 Reusing old log /home/roi/.config/chromium/Default/Local Storage/leveldb/000124.log 
