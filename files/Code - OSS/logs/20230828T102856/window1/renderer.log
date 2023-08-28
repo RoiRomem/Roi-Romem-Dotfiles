@@ -1,0 +1,5 @@
+2023-08-28 10:29:01.604 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/roi/.config/nvim/init.vim","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-08-28 10:29:04.893 [info] Started initializing default profile extensions in extensions installation folder. file:///home/roi/.vscode-oss/extensions
+2023-08-28 10:29:07.322 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/roi/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/roi/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-08-28 10:29:07.325 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/roi/.vscode-oss/extensions
+2023-08-28 10:29:14.677 [info] [perf] Render performance baseline is 875ms

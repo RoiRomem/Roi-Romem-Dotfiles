@@ -1,0 +1,20 @@
+2023-08-28 11:55:02.438 [info] Extension host with pid 3511 started
+2023-08-28 11:55:03.879 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-28 11:55:04.563 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-08-28 11:55:06.276 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-28 11:55:06.571 [info] Eager extensions activated
+2023-08-28 11:55:06.606 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-28 11:55:06.657 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-28 11:55:35.446 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-28 11:55:35.452 [info] Extension host with pid 3511 exiting with code 0
+2023-08-28 11:55:39.913 [info] Extension host with pid 3649 started
+2023-08-28 11:55:39.918 [info] Skipping acquiring lock for /home/roi/.config/Code - OSS/User/workspaceStorage/9b1ca9b177d2d8cc9dfcfc547bb86ca0.
+2023-08-28 11:55:40.444 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-28 11:55:40.950 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-08-28 11:55:41.052 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-28 11:55:41.082 [info] Eager extensions activated
+2023-08-28 11:55:41.152 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-28 11:55:41.158 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-28 11:55:47.164 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-08-28 11:59:01.392 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-28 11:59:01.422 [info] Extension host with pid 3649 exiting with code 0

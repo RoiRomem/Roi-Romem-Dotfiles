@@ -1,3 +1,3 @@
-2023/08/26-16:54:51.617 105d Reusing MANIFEST /home/roi/.config/chromium/Default/IndexedDB/chrome-extension_majdfhpaihoncoakbjgbdhglocklcgno_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/26-16:54:51.618 105d Recovering log #3
-2023/08/26-16:54:51.618 105d Reusing old log /home/roi/.config/chromium/Default/IndexedDB/chrome-extension_majdfhpaihoncoakbjgbdhglocklcgno_0.indexeddb.leveldb/000003.log 
+2023/08/28-12:39:53.977 fcb Reusing MANIFEST /home/roi/.config/chromium/Default/IndexedDB/chrome-extension_majdfhpaihoncoakbjgbdhglocklcgno_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/28-12:39:53.977 fcb Recovering log #3
+2023/08/28-12:39:53.977 fcb Reusing old log /home/roi/.config/chromium/Default/IndexedDB/chrome-extension_majdfhpaihoncoakbjgbdhglocklcgno_0.indexeddb.leveldb/000003.log 

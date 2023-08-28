@@ -1,0 +1,11 @@
+2023-08-28 12:33:15.810 [info] Extension host with pid 3112 started
+2023-08-28 12:33:15.810 [info] Skipping acquiring lock for /home/roi/.config/Code - OSS/User/workspaceStorage/9b1ca9b177d2d8cc9dfcfc547bb86ca0.
+2023-08-28 12:33:17.371 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-28 12:33:18.437 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-28 12:33:19.234 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-28 12:33:19.407 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-28 12:33:19.899 [info] Eager extensions activated
+2023-08-28 12:33:20.826 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-28 12:33:20.859 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-28 12:34:05.527 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-28 12:34:05.556 [info] Extension host with pid 3112 exiting with code 0
